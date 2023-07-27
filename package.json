@@ -1,0 +1,24 @@
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formspark/use-formspark": "^0.1.39",
+    "@react-pdf/renderer": "^3.1.12",
+    "@splidejs/react-splide": "^0.7.12",
+    "axios": "^1.4.0",
+    "framer-motion": "^10.12.22",
+    "next": "13.4.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-pdf": "^7.2.0",
+    "react-pdf-js": "^5.1.0",
+    "styled-components": "^6.0.4"
+  }
+}
