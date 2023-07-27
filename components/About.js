@@ -125,6 +125,5 @@ padding-bottom: 2rem;
 text-align: start;
 margin-top: 7rem;
 font-weight: 400;
-/* margin-bottom: 2rem; */
 }
 `;
