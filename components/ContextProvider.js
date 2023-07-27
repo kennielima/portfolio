@@ -3,7 +3,7 @@ import React, { useReducer, useState } from 'react';
 const textContext = React.createContext();
 
 export function ContextProvider(props) {
-    const [section, setSection] = useState('');
+    // const [section, setSection] = useState('');
 
     let view = '';
     const reducer = (state, action) => {
@@ -32,12 +32,12 @@ export function ContextProvider(props) {
     }
     const [click, dispatch] = useReducer(reducer, []);
 
-    const clicked = () => {
-        setSection('stackscroll')
-    }
+    // const clicked = () => {
+    //     setSection('stackscroll')
+    // }
 
     return (
-        <textContext.Provider value={{ click, dispatch, clicked, section }}>
+        <textContext.Provider value={{ click, dispatch }}>
             {props.children}
         </textContext.Provider>
     )
