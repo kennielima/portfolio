@@ -86,8 +86,8 @@ margin: 4rem 1rem;
 border-radius: 2rem;
 padding: 3rem 0;
 @media(max-width:480px){
-    height: 35rem;
-width: 35rem;
+    height: 30rem;
+width: 30rem;
 }
 &:hover{
     cursor: pointer;
