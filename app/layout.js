@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import './globals.css'
 import { ContextProvider } from '@/components/ContextProvider'
+import StyledComponentsRegistry from './registry'
 
 
 export default function RootLayout({ children }) {
@@ -9,7 +10,7 @@ export default function RootLayout({ children }) {
   <ContextProvider>
       <body>
         <Header />
-        {children}
+        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
   </ContextProvider>
 
