@@ -174,12 +174,11 @@ button:hover {
 }
 .names {
     line-height: 4.5rem;
-    margin: 0 0 0 3rem;
+    margin: 0 0 0 1rem;
 }
 #surname {
-    margin-left: 6rem;
     padding-top: 0.3rem;
-    /* padding-left: 10rem; */
+    padding-left: 10rem;
 
 }
 
