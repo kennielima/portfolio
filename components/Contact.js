@@ -162,6 +162,7 @@ const Hire = styled.div`
   background-size: cover;
   background-attachment: fixed;
   padding: 5% 10%;
+  width: 100vw;
 h1 {
   font-size: 5rem;
   color: #62dbfc; 

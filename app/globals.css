@@ -16,10 +16,11 @@ html {
 }
 body{
   text-align: center;
-  background-color: #111320;
-background-color: rgb(12, 30, 50);
+  /* background-color: #111320;
+background-color: rgb(12, 30, 50); */
+background-color: white;
 font-family: 'Roboto Mono', monospace;
-width: auto;
+width: 100vw;
 }
 * {
   box-sizing: border-box;
