@@ -174,7 +174,6 @@ margin: 5rem 0;
 @media(max-width:480px) {
     font-size: 2.2rem;
     margin-top: 3rem;
-    padding: 0 1rem;
 }
 }
 
