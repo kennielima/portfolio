@@ -26,7 +26,7 @@ const Images = [
     {
         href: '/facebook',
         span: 'Facebook Clone design',
-        image: '/fb4.jpg'
+        image: '/fb4.svg'
     },
     {
         href: '/furniture',
@@ -60,7 +60,9 @@ export default function Designs() {
                     return (
                         <SplideSlide key={Math.random()}>
                             <Link href={image.href} target="_blank">
-                                <Card onClick={ctx.dispatch({ type: 'hidenav' })}>
+                                <Card 
+                                onClick={() => ctx.dispatch({ type: 'hidenav' })}
+                                >
                                     <Image src={image.image} alt='' width={300} height={300} />
                                     <p>
                                         <span>{"<"}</span>

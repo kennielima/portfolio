@@ -17,28 +17,7 @@ const Images = [
         href: '/fish',
         span: 'Fish Graphics',
         image: '/fish2.png'
-    },
-    // {
-    //     href: '/eatmore',
-    //     span: 'Food App',
-    //     image: 'eat4.svg'
-    // },
-    // {
-    //     href: '/facebook',
-    //     span: 'Facebook Clone design',
-    //     image: '/fb4.jpg'
-    // },
-    // {
-    //     href: '/furniture',
-    //     span: 'Furniture Landing page',
-    //     image: 'furnituree.svg'
-    // }
-    // ,
-    // {
-    //     href: '/decorhome',
-    //     span: 'Decor Landing page',
-    //     image: 'decorhome.svg'
-    // }
+    }
 ]
 export default function Graphics() {
     const ctx = useContext(textContext);
@@ -60,7 +39,9 @@ export default function Graphics() {
                     return (
                         <SplideSlide key={Math.random()}>
                             <Link href={image.href} target="_blank">
-                                <Card onClick={ctx.dispatch({type: 'hidenav'})}>
+                                <Card
+                                 onClick={() => ctx.dispatch({type: 'hidenav'})}
+                                 >
                                     <Image src={image.image} alt='' width={300} height={300} />
                                     <p>
                                     <span>{"<"}</span>

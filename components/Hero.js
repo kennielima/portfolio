@@ -95,6 +95,9 @@ const Heros = styled.div`
     border-radius: 50%;
     position:absolute;
     z-index: 0;
+    @media(max-width:480px){
+        display: none;
+    }
 }
 .logos:hover {
     padding: 0.2rem;
