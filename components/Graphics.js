@@ -17,6 +17,26 @@ const Images = [
         href: '/fish',
         span: 'Fish Graphics',
         image: '/fish2.png'
+    },
+    // {
+    //     href: '/bizcard',
+    //     span: 'Flier',
+    //     image: '/bizcard.jpg'
+    // },
+    {
+        href: '/nhs',
+        span: 'Flier',
+        image: '/nhs.png'
+    },
+    {
+        href: '/flier',
+        span: 'Flier',
+        image: '/flier.jpg'
+    },
+    {
+        href: '/flier2',
+        span: 'Flier',
+        image: '/flier2.jpg'
     }
 ]
 export default function Graphics() {
@@ -40,7 +60,7 @@ export default function Graphics() {
                         <SplideSlide key={Math.random()}>
                             <Link href={image.href} target="_blank">
                                 <Card
-                                 onClick={() => ctx.dispatch({type: 'hidenav'})}
+                                //  onClick={() => ctx.dispatch({type: 'hidenav'})}
                                  >
                                     <Image src={image.image} alt='' width={300} height={300} />
                                     <p>

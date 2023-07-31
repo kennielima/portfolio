@@ -61,7 +61,7 @@ export default function Designs() {
                         <SplideSlide key={Math.random()}>
                             <Link href={image.href} target="_blank">
                                 <Card 
-                                onClick={() => ctx.dispatch({ type: 'hidenav' })}
+                                // onClick={() => ctx.dispatch({ type: 'hidenav' })}
                                 >
                                     <Image src={image.image} alt='' width={300} height={300} />
                                     <p>
