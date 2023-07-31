@@ -113,13 +113,13 @@ img:hover{
 `;
 
 const Form = styled.form`
-width: 60%;
+width: 50rem;
 margin: auto;
 display: grid;
 grid-gap: 4rem;
 
-@media(max-width:768px) {
-    width: 70%;
+@media(max-width:480px) {
+    width: 35rem;
 }
 input{
     border: none;
@@ -171,7 +171,6 @@ h1 {
     font-size: 3rem;
 letter-spacing: 0.2rem;
 margin: 5rem 0;
-height: auto;
 @media(max-width:480px) {
     font-size: 2.2rem;
     margin-top: 3rem;
