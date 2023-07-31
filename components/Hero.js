@@ -17,7 +17,7 @@ function Hero() {
     return (
         <Fragment>
             <Heros ref={ref}>
-                <motion.div animate={{ opacity: 6 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} transition={{ duration: 1.5 }}>
+                <motion.div animate={{ opacity: 6 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} transition={{ duration: 3 }}>
                     <div id='intro'>
                         <span className='hello'>Hello,  I am</span>
                         <span
@@ -95,9 +95,9 @@ const Heros = styled.div`
     border-radius: 50%;
     position:absolute;
     z-index: 0;
-    /* @media(max-width:480px){
+    @media(max-width:480px){
         display: none;
-    } */
+    }
 }
 .logos:hover {
     padding: 0.2rem;
