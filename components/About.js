@@ -14,7 +14,7 @@ export default function Projects() {
             <About ref={ref}>
                 <h1>About Me<span>()</span></h1>
                 <Desc>
-                    The first thing you should know is to please call me Kennie. I am a self taught web developer who started my coding journey a year ago. I originally started out my career as an IT Career Consultant in an IT Training Company: New Horizons Ltd, where I counselled tech newbies daily on their technical journies and career paths for 3 years. I also functioned as a Project Coordinator overseeing all running classes from start to finish while tracking students progress with Learning Management Systems. I got certified as an Associate Member of the Chattered Institute of Personnel Management and I channeled my Training and Development knowledge into my job in the EduTech Industry. My job in the IT field, however exposed me to more technical paths, it piqued my interest and there was no going back from there. I initially found interest in graphic design and UI/UX design. However, somewhere along the line, I wrote my first Html code and fell in love with coding. I decided then that this was what I wanted to spend my life doing. It's been nothing short of easy coming from a non-technical background and seeing my first ever code in 2022, as you can see though, I am made of true grit and persistence. I passionately love learning new things and I am extremely zealous, driven and self-motivated. I am looking for amazing opportunities to grow, learn even more on a more practial scale and be a part of something bigger than just me.  My ultimate goal is to use technology to create a product with an impact so huge it becomes my Legacy. I might look very unassuming but given the right chance to prove my worth, I'm confident I'll knock your socks off! P.s. 
+                    I am a self taught web developer who started my journey a year ago. I started out as an IT Career Consultant, my job, however exposed me to more technical paths, i.e graphic design and UI/UX design. However, I fell in love with writing code and focused fully on it. I am looking for growing and practical learning opportunities.
                 </Desc>
                 <h2>What I do<span style={{ color: '#D76427' }}>()</span></h2>
 
@@ -34,15 +34,15 @@ export default function Projects() {
                     <Card>
                         <h3><span>{"<"}</span>IT Consulting<span>{"/>"}</span></h3>
                         <p>
-                            I counsel tech newbies on their career paths. I also mentor (non-technical) and track their progress with LMS tools while overseeing all classes as a project coordinator</p>
+                            With 3 years experience in IT consulting, I counsel tech newbies on their career paths. I track progress with LMS tools and coordinate all running projects from start to finish</p>
                     </Card>
                     <Card>
                         <h3><span>{"<"}</span>Technical Writing<span>{"/>"}</span></h3>
-                        <p>I am a creative so I love writing and creating content.I have formerly written articles, stories, poems and I'm currently opon to exploring my writing in the technical space</p>
+                        <p>I am a creative who has formerly written articles, stories, poems and I'm  open to exploring writing in the technical space</p>
                     </Card>
                     <Card>
                         <h3><span>{"<"}</span>Social Media Management<span>{"/>"}</span></h3>
-                        <p>I create amazing content and will manage your brand professionally with strategies desogned to increase brand visibility.</p>
+                        <p>I create amazing content and can manage brands  with strategies designed to increase brand visibility.</p>
                     </Card>
                 </Grid>
             </About>
