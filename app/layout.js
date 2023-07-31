@@ -9,12 +9,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head />
       <ContextProvider>
-        <body>
-          <StyledComponentsRegistry>
-            <Header />
-            {children}
+      <body>
+        <Header />
+        <StyledComponentsRegistry>
+          {children}
           </StyledComponentsRegistry>
-        </body>
+      </body>
       </ContextProvider>
 
     </html>

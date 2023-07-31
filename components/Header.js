@@ -11,7 +11,7 @@ function Header() {
 
   return (
   <Fragment>
-    {ctx.click === 'hidenav' && <Head>
+    {ctx.click !== 'hidenav' && <Head>
       <Main className={shownav ? 'show-nav' : ''}>
         <span onClick={() => { ctx.dispatch({ type: 'homeclick' }) }}>Home</span>
         <span
@@ -83,7 +83,7 @@ const Main = styled.div`
   margin: auto;
   /* margin-right: 0; */
   font-size: 3rem;
-  grid-gap: 10rem;
+  grid-gap: 7rem;
   padding: 15rem 0 25rem 0;
   opacity: 98%;
   /* background-color: rgba(12, 28, 47, 1); */
