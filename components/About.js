@@ -76,22 +76,21 @@ const Grid = styled.div`
 `;
 
 const Card = styled.div`
-height: 30rem;
+height: auto;
 width: 30rem;
-/* background-color: #263445; */
+background-color: #263445;
 border: 2px solid #D76427;
-box-shadow: 1px 1px 20px 2px rgba(215, 101, 39, 0.917);
-background-color: #26344520;
+box-shadow: 1px 1px 20px 2px rgba(215, 101, 39, 0.817);
 margin: 4rem 1rem;
 border-radius: 2rem;
 padding: 3rem 0;
 @media(max-width:480px){
-    height: 30rem;
-width: 30rem;
+    height: auto;
+width: 25rem;
 }
 &:hover{
     cursor: pointer;
-background-color: #263445;
+background-color: #26344520;
 border: 2px solid #D76427;
 box-shadow: none;
 }
@@ -111,8 +110,8 @@ p {
 `;
 const About = styled.div`
 background-image: url('/herodark.png');
-background-repeat: no-repeat;
-background-size: cover;
+background-repeat: repeat;
+background-size: auto;
 background-attachment: fixed;
 padding: 5% 10%;
 h1 {

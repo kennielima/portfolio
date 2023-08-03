@@ -38,7 +38,7 @@ export default function Contact() {
         <Fragment>
             <Hire ref={ref}>
                 <h1>Hire Me<span>()</span></h1>
-                {/* <h2 id='subhead'>{"if (feedback = positive && interested.workingTogether){ let kennie === 'happy';"}</h2> */}
+                <h2 id='subhead'>{"if (feedback = positive && interested.workingTogether){ let kennie === 'happy';"}</h2>
                 
                 <Form
                     onSubmit={submitform}
@@ -158,8 +158,8 @@ button:hover {
 `;
 const Hire = styled.div`
   background-image: url('/herodark.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: auto;
   background-attachment: fixed;
   padding: 5% 10%;
   width: 100vw;

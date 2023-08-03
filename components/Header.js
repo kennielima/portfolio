@@ -13,14 +13,17 @@ function Header() {
   <Fragment>
     {ctx.click !== 'hidenav' && <Head>
       <Main className={shownav ? 'show-nav' : ''}>
-        <span onClick={() => { ctx.dispatch({ type: 'homeclick' }) }}>Home</span>
+        <span onClick={() => { 
+          ctx.dispatch({ type: 'homeclick' });
+          setShownav(!shownav) }}>Home</span>
         <span
-          onClick={() => { ctx.dispatch({ type: 'stackclick' }) }}
+          onClick={() => { ctx.dispatch({ type: 'stackclick' });
+          setShownav(!shownav) }}
         >TechStack</span>
-        <span onClick={() => { ctx.dispatch({ type: 'projectclick' }) }}>Projects</span>
-        <span onClick={() => { ctx.dispatch({ type: 'aboutclick' }) }}>About</span>
+        <span onClick={() => { ctx.dispatch({ type: 'projectclick' }); setShownav(!shownav) }}>Projects</span>
+        <span onClick={() => { ctx.dispatch({ type: 'aboutclick' }); setShownav(!shownav) }}>About</span>
         <div id='contact' 
-        onClick={() => { ctx.dispatch({ type: 'contactclick' }) }} 
+        onClick={() => { ctx.dispatch({ type: 'contactclick' }); setShownav(!shownav) }} 
         onMouseEnter={()=> setHide('😀')}
         onMouseLeave={()=> setHide(null)}
         >
@@ -42,16 +45,16 @@ const Head = styled.header`
   position: sticky;
   width: auto;
   height: 5rem;
-  margin: -2rem auto;
+  margin: -2.5rem auto;
   top: 0rem;
   z-index: 20;
   
 img{
   display: none;
   width: auto;
-  height: 4rem;
-  right: 3rem;
-  top: 2rem;
+  height: 3rem;
+  right: 2rem;
+  top: 1rem;
   position: absolute;
   cursor: pointer;
   color: inherit;

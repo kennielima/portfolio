@@ -77,13 +77,13 @@ function Projects() {
         <h1>My Projects<span style={{ color: '#ffffff' }}>()</span></h1>
         <h2>Web Development<span style={{ color: '#ffffff' }}>()</span></h2>
         <Splide options={{
-          perPage: 2,
+          perPage: 1,
           arrows: true,
           pagination: true,
           drag: 'free',
           gap: '5rem',
-          type: 'loop',
-          perMove: 2,
+          // type: 'loop',
+          perMove: 1,
           width: 'auto'
         }}>
           {PROJECTS.map((project) => {
@@ -160,8 +160,8 @@ img {
 `;
 const Bodyy = styled.div`
   background-image: url('/herodark.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: auto;
   background-attachment: fixed;
   padding: 5% 10% 10% 10%;
 h1 {
@@ -180,11 +180,14 @@ text-align: start;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   border: none;
+  position: relative;
+  top: -2.2rem;
 }
 button{
   color: white;
   background-color: #ac501fc9;
   cursor: pointer;
+  /* padding: 0.5rem; */
 }
 button:hover {
   background-color: #D76427;

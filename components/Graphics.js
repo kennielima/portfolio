@@ -46,13 +46,13 @@ export default function Graphics() {
         <div>
             <H2>Graphic Design<span style={{ color: '#ffffff' }}>()</span></H2>
             <Splide options={{
-                perPage: 2,
+                perPage: 1,
                 arrows: true,
                 pagination: true,
                 drag: 'free',
                 gap: '5rem',
-                type: 'loop',
-                perMove: 2,
+                // type: 'loop',
+                perMove: 1,
                 width: 'auto'
             }}>
                 {Images.map((image) => {

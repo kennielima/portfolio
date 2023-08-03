@@ -61,7 +61,7 @@ div {
 const Stacks = styled.div`
   background-image: url('/herodark.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   padding: 5% 10%;
 h1 {

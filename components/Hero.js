@@ -13,7 +13,7 @@ function Hero() {
     return (
         <Fragment>
             <Heros ref={ref}>
-                <motion.div animate={{ opacity: 6 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} transition={{ duration: 3 }}>
+                <motion.div animate={{ opacity: 6 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} transition={{ duration: 1 }}>
                     <div id='intro'>
                         <span className='hello'>Hello,  I am</span>
                         <span
@@ -48,9 +48,9 @@ function Hero() {
 const Heros = styled.div`
     background-image: url('/herodark.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
