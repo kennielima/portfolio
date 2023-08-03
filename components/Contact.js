@@ -70,7 +70,7 @@ export default function Contact() {
                 <Links>
                     <h2>OR <br /> <span style={{ color: '#D76427' }}>REACH OUT VIA</span></h2>
                     <div>
-                        <a href='"whatsapp://send?phone=+2347038222850"' target='_blank'><Image src='/watsapp.png' alt='' height={50} width={50} /></a>
+                        <a href='whatsapp://send?phone=+2347038222850' target='_blank'><Image src='/watsapp.png' alt='' height={50} width={50} /></a>
                         <a href='mailto:kennylima970@gmail.com' target='_blank'><Image src='/mail.png' alt='' height={50} width={50} /></a>
                     </div>
                     <h3><span style={{ color: '#D76427' }}>ALSO </span><br /> CHECK ME OUT AT</h3>

@@ -17,7 +17,6 @@ export default function Projects() {
                     I am a self taught web developer who started my journey a year ago. I started out as an IT Career Consultant, my job, however exposed me to more technical paths, i.e graphic design and UI/UX design. However, I fell in love with writing code and focused fully on it. I am currently looking for growing and practical learning opportunities.
                 </Desc>
                 <h2>What I do<span style={{ color: '#D76427' }}>()</span></h2>
-
                 <Grid>
                     <Card>
                         <h3><span>{"<"}</span>Web Development<span>{"/>"}</span></h3>
@@ -57,7 +56,7 @@ width: 100%;
 padding: 4rem;
 border-radius: 2rem;
 border: 2px solid #D76427;
-margin: 7rem 0 15rem 0;
+margin: 5rem 0 0 0;
 font-size: 1.7rem;
 line-height: 2.2rem;
 `;
@@ -87,6 +86,7 @@ padding: 3rem 0;
 @media(max-width:480px){
     height: auto;
 width: 25rem;
+margin: 2rem auto;
 }
 &:hover{
     cursor: pointer;
@@ -120,7 +120,7 @@ color: #62dbfc;
 }
 h2 {
 font-size: 3rem;
-padding-bottom: 2rem;
+padding-bottom: 1.5rem;
 text-align: start;
 margin-top: 7rem;
 font-weight: 400;

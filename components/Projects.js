@@ -84,7 +84,8 @@ function Projects() {
           gap: '5rem',
           // type: 'loop',
           perMove: 1,
-          width: 'auto'
+          width: 'auto',
+          height: '35rem'
         }}>
           {PROJECTS.map((project) => {
             return (
@@ -122,17 +123,17 @@ const Card = styled.div`
   border: 0.3rem solid #62dbfc;
   cursor: pointer;
   position: relative;
+  margin: auto;
 &:hover {
   background-color: #D7642719;
   /* border: 0.3rem solid #62dbfc; */
   border: 0.3rem solid #D76427;
   transition: all 0.5s;
 }
-/* @media(max-width:1200px) {
-  width: 25rem;
-  height: 25rem;
+@media(min-width:480px) {
+margin: 0 5rem;
 }
-@media(max-width:600px) {
+/* @media(max-width:600px) {
   width: 20rem;
   height: 20rem;
 } */
@@ -180,8 +181,8 @@ text-align: start;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   border: none;
-  position: relative;
-  top: -2.2rem;
+  /* position: relative;
+  top: -2.2rem; */
 }
 button{
   color: white;

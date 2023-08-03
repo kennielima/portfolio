@@ -45,7 +45,7 @@ export default function Designs() {
 
     return (
         <div>
-            <H2>UI Design<span style={{ color: '#ffffff' }}>()</span></H2>
+            <H2>UI/UX Design<span style={{ color: '#ffffff' }}>()</span></H2>
             <Splide options={{
                 perPage: 1,
                 arrows: true,
@@ -54,7 +54,8 @@ export default function Designs() {
                 gap: '5rem',
                 // type: 'loop',
                 perMove: 1,
-                width: 'auto'
+                width: 'auto',
+                height: '33rem'
             }}>
                 {Images.map((image) => {
                     return (
@@ -96,6 +97,9 @@ const Card = styled.div`
   /* border: 0.3rem solid #62dbfc; */
   border: 0.3rem solid #D76427;
   transition: all 0.5s;
+}
+@media(min-width:480px) {
+margin: 0 5rem;
 }
 p{
 position: absolute;

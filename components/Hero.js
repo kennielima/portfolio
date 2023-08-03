@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { styled } from 'styled-components';
 import { motion } from 'framer-motion';
 import textContext from './ContextProvider';
+import Link from 'next/link';
 
 function Hero() {
     const ctx = useContext(textContext);
@@ -33,7 +34,7 @@ function Hero() {
                             className='hello'
                             style={{ paddingLeft: '3.2rem' }}>Front-End Developer
                         </span>
-                        <button>Resume</button>
+                        <button><a href='https://docs.google.com/document/d/1OWa3yzpzBZYl7Ab11JrM8FLQwg6DaoZr6v9Jsqn_0Rk/edit#heading=h.arnrh62rcfpt' target='_blank'>Resume</a></button>
                     </div>
                 </motion.div>
                 <Image src='/mypic2.png' alt='' id='mypic' height={400} width={400} />
@@ -135,7 +136,9 @@ button:hover {
     transition: background-color 0.5s;
     background-color: rgba(2,37,62, 0.61);
 }
-
+a {
+    text-decoration: none;
+}
 @media(max-width: 900px){
     padding: 0 5%;
     justify-content: space-around;

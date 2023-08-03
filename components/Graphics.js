@@ -53,7 +53,8 @@ export default function Graphics() {
                 gap: '5rem',
                 // type: 'loop',
                 perMove: 1,
-                width: 'auto'
+                width: 'auto',
+                height: '33rem'
             }}>
                 {Images.map((image) => {
                     return (
@@ -96,6 +97,9 @@ const Card = styled.div`
   /* border: 0.3rem solid #62dbfc; */
   border: 0.3rem solid #D76427;
   transition: all 0.5s;
+}
+@media(min-width:480px) {
+margin: 0 5rem;
 }
 p{
 position: absolute;
