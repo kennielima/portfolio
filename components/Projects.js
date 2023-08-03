@@ -41,11 +41,29 @@ const PROJECTS = [
     code: 'https://github.com/kennielima/deliciouss.github.io'
   },
   {
+    href: "https://omnifood.kennielima.vercel.app",
+    span: 'Omnifood',
+    image: '/omni.json',
+    code: 'https://github.com/kennielima/Omnifood'
+  },
+  {
+    href: "https://rockets-one.vercel.app/",
+    span: 'Acme Rockets',
+    image: '/rocket.json',
+    code: 'https://github.com/kennielima/rockets'
+  },
+  {
+    href: "https://expenses.vert.vercel.app",
+    span: 'Expenses app',
+    image: '/expense.json',
+    code: 'https://github.com/kennielima/expenses'
+  },
+  {
     href: "https://limatictactoe-github-io.vercel.app",
     span: 'A Game of TIC-TAC-TOE',
     image: '/tictactoe.json',
     code: 'https://github.com/kennielima/limatictactoe.github.io'
-  }
+  },
 ]
 function Projects() {
   const ctx = useContext(textContext);

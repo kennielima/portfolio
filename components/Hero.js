@@ -1,10 +1,6 @@
 "use client"
 import React, { Fragment, useContext, useRef } from 'react';
 import Image from 'next/image';
-// import herodark from '@/public/herodark.png';
-// import logojs from './public/logojs.svg';
-// import figma from '@/public/figma.png';
-// import logo from '@/public/logo.svg';
 import { styled } from 'styled-components';
 import { motion } from 'framer-motion';
 import textContext from './ContextProvider';

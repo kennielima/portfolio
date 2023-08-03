@@ -1,9 +1,6 @@
 "use client"
 import React, { Fragment, useContext, useRef } from 'react';
 import Image from 'next/image';
-// import html from '@/public/html.svg';
-// import js from '@/public/js.png';
-// import css from '@/public/css.png';
 import { styled } from 'styled-components';
 import textContext from './ContextProvider';
 
@@ -12,7 +9,6 @@ export default function TechStack() {
   const ref = useRef();
 
   ctx.click === 'stackscroll' && ref.current?.scrollIntoView({ behavior: 'smooth' });
-  // ctx.section === 'stackscroll' && ref.current?.scrollIntoView({behavior: 'smooth'});
 
   return (
     <Fragment>
