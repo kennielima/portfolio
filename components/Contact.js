@@ -13,12 +13,12 @@ export default function Contact() {
     const [message, setMessage] = useState("");
 
     ctx.click === 'contactscroll' && ref.current?.scrollIntoView({ behavior: 'smooth' });
-    
+
     const submitform = async (e) => {
         e.preventDefault();
         try {
             const response = await axios.post(
-                'https://submit-form.com/VGaIAgFj',
+                'https://submit-form.com/aMYO3Q2E',
                 {
                     name: name,
                     email: email,
@@ -39,10 +39,10 @@ export default function Contact() {
             <Hire ref={ref}>
                 <h1>Hire Me<span>()</span></h1>
                 <h2 id='subhead'>{"if (feedback = positive && interested.workingTogether){ let kennie === 'happy';"}</h2>
-                
+
                 <Form
                     onSubmit={submitform}
-                    action="https://submit-form.com/VGaIAgFj"
+                    action="https://submit-form.com/aMYO3Q2E"
                 >
                     <input
                         placeholder='How can i call you?'
@@ -73,11 +73,12 @@ export default function Contact() {
                         <a href='whatsapp://send?phone=+2347038222850' target='_blank'><Image src='/watsapp.png' alt='' height={50} width={50} /></a>
                         <a href='mailto:kennylima970@gmail.com' target='_blank'><Image src='/mail.png' alt='' height={50} width={50} /></a>
                     </div>
-                    <h3><span style={{ color: '#D76427' }}>ALSO </span><br /> CHECK ME OUT AT</h3>
+                    <h2><span style={{ color: '#D76427' }}>ALSO </span><br /> CHECK ME OUT ON</h2>
                     <div>
                         <a href='https://github.com/kennielima' target='_blank'><Image src='/github.png' alt='' height={50} width={50} /></a>
                         <a href='https://www.linkedin.com/in/kennielima/' target='_blank'><Image src='/linkedinn.png' alt='' height={50} width={50} /></a>
                     </div>
+                    <footer>&#169; Kennie's Portfolio</footer>
                 </Links>
             </Hire>
         </Fragment>
@@ -86,19 +87,15 @@ export default function Contact() {
 const Links = styled.div`
 h2 {
     font-size: 3rem;
-}
-h3 {
-    font-size: 2rem;
-}
-h2, h3 {
     font-weight: normal;
     letter-spacing: 0.2rem;
-    margin: 6rem 0 3rem 0;
+    margin: 5rem 0 3rem 0;
 }
 div {
     display: flex;
     gap: 2rem;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 img {
     border-radius: 50%;
@@ -124,7 +121,7 @@ grid-gap: 4rem;
 input{
     border: none;
     background-color: #00000000;
-    height: 3rem;
+    height: 4rem;
     margin-top: 5rem;
     font-size: 2rem;
     padding: 0 0 1rem 1.5rem;
@@ -157,15 +154,24 @@ button:hover {
 
 `;
 const Hire = styled.div`
-  background-image: url('/herodark.png');
-  background-repeat: repeat;
-  background-size: auto;
-  background-attachment: fixed;
-  padding: 5% 10%;
+  padding: 5% 10% 4% 10%;
   width: 100vw;
+  background-image: url('/herodark1.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  @media(max-width:480px){
+    background-image: url('/herodark.png');
+    /* background-size: auto; */
+    background-attachment: scroll;
+  }
 h1 {
   font-size: 5rem;
   color: #62dbfc; 
+  @media(max-width:480px){
+    padding-top: 3rem;
+  }
 }
 #subhead{
     font-size: 3rem;
@@ -176,5 +182,11 @@ margin: 5rem 0;
     margin-top: 3rem;
 }
 }
-
+footer {
+    position: relative;
+    bottom: 0;
+    padding: 5rem 0 0 0;
+    font-size: 1.3rem;
+    font-family: Source Code Pro;
+}
 `;

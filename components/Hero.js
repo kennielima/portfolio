@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { styled } from 'styled-components';
 import { motion } from 'framer-motion';
 import textContext from './ContextProvider';
-import Link from 'next/link';
 
 function Hero() {
     const ctx = useContext(textContext);
@@ -14,7 +13,6 @@ function Hero() {
     return (
         <Fragment>
             <Heros ref={ref}>
-                <motion.div animate={{ opacity: 6 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} transition={{ duration: 1 }}>
                     <div id='intro'>
                         <span className='hello'>Hello,  I am</span>
                         <span
@@ -36,8 +34,7 @@ function Hero() {
                         </span>
                         <button><a href='https://docs.google.com/document/d/1OWa3yzpzBZYl7Ab11JrM8FLQwg6DaoZr6v9Jsqn_0Rk/edit#heading=h.arnrh62rcfpt' target='_blank'>Resume</a></button>
                     </div>
-                </motion.div>
-                <Image src='/mypic2.png' alt='' id='mypic' height={400} width={400} />
+                <Image src='/mypic.png' alt='' id='mypic' height={400} width={400} />
                 <Image src='/logojs.svg' alt='' className='logos js' height={200} width={200} />
                 <Image src='/logo.svg' alt='' className='logos react' height={200} width={200} />
                 <Image src='/figma.png' alt='' className='logos figma' height={200} width={200} />
@@ -47,9 +44,9 @@ function Hero() {
     )
 }
 const Heros = styled.div`
-    background-image: url('/herodark.png');
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-image: url('/herodark1.jpg');
+    background-repeat: repeat;
+    background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: 100vh;
@@ -168,10 +165,12 @@ a {
     justify-content: center;
     gap: 6rem;
     align-items: center;
+    background-image: url('/herodark.png');
+    background-size: auto;
 
 .hello {
     text-align: center;
-    line-height: 7rem;
+    line-height: 4rem;
     padding-right: 4rem;
 }
 .names {
@@ -179,9 +178,7 @@ a {
     margin: 0 0 0 1rem;
 }
 #surname {
-    padding-top: 0.3rem;
-    padding-left: 10rem;
-
+    padding: 0rem 0 0.3rem 10rem;
 }
 
 #mypic {

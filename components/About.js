@@ -14,7 +14,7 @@ export default function Projects() {
             <About ref={ref}>
                 <h1>About Me<span>()</span></h1>
                 <Desc>
-                    I am a self taught web developer who started my journey a year ago. I started out as an IT Career Consultant, my job, however exposed me to more technical paths, i.e graphic design and UI/UX design. However, I fell in love with writing code and focused fully on it. I am currently looking for growing and practical learning opportunities.
+                    I am a self taught web developer who started my journey a year ago. I started out as an IT Career Consultant. My job, however exposed me to more technical paths, i.e graphic design and UI/UX design. However, I fell in love with writing code and focused fully on it. I am currently looking for growing and practical learning opportunities.
                 </Desc>
                 <h2>What I do<span style={{ color: '#D76427' }}>()</span></h2>
                 <Grid>
@@ -109,14 +109,22 @@ p {
 }
 `;
 const About = styled.div`
-background-image: url('/herodark.png');
+background-image: url('/herodark1.jpg');
 background-repeat: repeat;
-background-size: auto;
+background-size: cover;
 background-attachment: fixed;
 padding: 5% 10%;
+@media(max-width:480px){
+    background-image: url('/herodark.png');
+    /* background-size: auto; */
+    background-attachment: scroll;
+  }
 h1 {
 font-size: 5rem;
 color: #62dbfc; 
+@media(max-width:480px){
+    padding-top: 3rem;
+  }
 }
 h2 {
 font-size: 3rem;

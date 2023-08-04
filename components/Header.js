@@ -49,22 +49,22 @@ export default function Header() {
 const Head = styled.header`
   position: sticky;
   width: auto;
-  height: 5rem;
+  height: 5.5rem;
   margin: -2.5rem auto;
   top: 0rem;
   z-index: 20;
   background-color: #0c1c2f;
-  background-color: #0c1c2f;
-display: flex;
-align-items: center;
-justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media(max-width:480px){
+  background-color: #0c1e32;
+}
 #home {
 position: absolute;
-left: 6rem;
+left: 5rem;
 font-size: 2.8rem;
 color: #62e6fc;
-/* font-style: italic; */
 &:hover {
   cursor: pointer;
   color: #25aae4;
@@ -80,7 +80,7 @@ img{
   width: auto;
   height: 3rem;
   right: 2rem;
-  top: 1rem;
+  top: 1.2rem;
   position: absolute;
   cursor: pointer;
 @media(max-width:480px){
@@ -96,9 +96,11 @@ const Main = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  gap: 6rem;
+  gap: 8rem;
   color: #e6e6e6;
-
+  @media(min-width:480px) and (max-width:650px){
+    gap: 3rem;
+  }
 @media(max-width:768px){
   font-size: 2rem;
 }
@@ -111,23 +113,22 @@ const Main = styled.div`
   margin: auto;
   /* margin-right: 0; */
   font-size: 3rem;
-  grid-gap: 5rem;
-  padding: 10rem 0 15rem 0;
+  grid-gap: 6rem;
+  padding: 11rem 0 15rem 0;
   opacity: 98%;
   /* background-color: rgba(12, 28, 47, 1); */
 
 }
 }
 #home {
-
 }
 #contact{
   position: absolute;
-  left: 85%;
+  right: 5%;
   border: 1px solid #D76427;
   border-radius: 1rem;
   padding: 0.4rem 1rem;
-@media(max-width:768px){
+@media(max-width:480px){
   position: relative;
   left: 0;
 }

@@ -7,11 +7,11 @@ export default function facebook() {
 
   return (
     <div style={{ display: 'grid'}}>
-        <Imager src={'/facebook.svg'} alt='' width={1400} height={1400}/>
-        <Imager src={'/fb1.svg'} alt='' width={400} height={1000}/>
-        <Imager src={'/fb2.svg'} alt='' width={400} height={1000}/>
-        <Imager src={'/fb3.svg'} alt='' width={400} height={1000}/>
-        <Imager src={'/fb4.svg'} alt='' width={400} height={1000}/>
+        <Imager src={'/facebook.svg'} alt='' layout='responsive' width='400' height='400' />
+        <Imager src={'/fb1.svg'} alt='' layout='responsive' width='400' height='400' />
+        <Imager src={'/fb2.svg'} alt='' layout='responsive' width='400' height='400' />
+        <Imager src={'/fb3.svg'} alt='' layout='responsive' width='400' height='400' />
+        <Imager src={'/fb4.svg'} alt='' layout='responsive' width='400' height='400' />
     </div>
   )
 }

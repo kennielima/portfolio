@@ -35,7 +35,7 @@ export default function TechStack() {
 }
 const Grid = styled.div`
   display: grid;
-  margin: 5rem 7rem;
+  margin: 4rem 7rem;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
 @media(max-width:480px){
@@ -59,14 +59,23 @@ div {
 `;
 
 const Stacks = styled.div`
-  background-image: url('/herodark.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-attachment: fixed;
   padding: 5% 10%;
+  background-image: url('/herodark1.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+   @media(max-width:480px){
+    background-image: url('/herodark.png');
+    background-size: auto;
+    background-attachment: scroll;
+    /* background-position: top left; */
+  }
 h1 {
   font-size: 5rem;
   color: #62dbfc; 
+  @media(max-width:480px){
+    padding-top: 3rem;
+  }
 }
 img {
     height: 5rem;

@@ -7,7 +7,7 @@ export default function eatmore() {
 
   return (
     <div>
-        <Imager src={'/food.svg'} alt='' width={1400} height={1400}/>
+        <Imager src={'/food.svg'} alt=''  layout='responsive' width='400' height='400' />
         <Imager src={'/eat.svg'} alt='' width={1000} height={1000}/>
         <Imager src={'/eat2.svg'} alt='' width={1000} height={1000}/>
         <Imager src={'/eat3.svg'} alt='' width={1000} height={1000}/>

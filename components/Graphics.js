@@ -11,18 +11,13 @@ const Images = [
     {
         href: '/color',
         span: 'Landing Page',
-        image: '/color.png'
+        image: '/color2.png'
     },
     {
         href: '/fish',
         span: 'Fish Graphics',
         image: '/fish2.png'
     },
-    // {
-    //     href: '/bizcard',
-    //     span: 'Flier',
-    //     image: '/bizcard.jpg'
-    // },
     {
         href: '/nhs',
         span: 'Flier',
@@ -47,7 +42,7 @@ export default function Graphics() {
             <H2>Graphic Design<span style={{ color: '#ffffff' }}>()</span></H2>
             <Splide options={{
                 perPage: 1,
-                arrows: true,
+                arrows: false,
                 pagination: true,
                 drag: 'free',
                 gap: '5rem',
@@ -63,7 +58,7 @@ export default function Graphics() {
                                 <Card
                                  onClick={() => ctx.dispatch({type: 'hidenav'})}
                                  >
-                                    <Image src={image.image} alt='' width={300} height={300} />
+                                    <Image src={image.image} alt='' layout='fill' />
                                     <p>
                                     <span>{"<"}</span>
                                         {image.span}
@@ -83,7 +78,7 @@ export default function Graphics() {
 const Card = styled.div`
   width: auto;
   height: 30rem;
-  background-color: #0c1e32b9;
+  background-color: #0c1e32;
   border-radius: 2rem;
   overflow: hidden;
   /* border: 0.3rem solid #D76427; */
@@ -91,9 +86,7 @@ const Card = styled.div`
   cursor: pointer;
   position: relative;
 &:hover {
-  /* width: 100%; */
-  /* height: 32rem; */
-  background-color: #D7642719;
+  background-color: #D7642769;
   /* border: 0.3rem solid #62dbfc; */
   border: 0.3rem solid #D76427;
   transition: all 0.5s;
@@ -117,7 +110,7 @@ span {
   color: #D76427;
 }
 img {
-  opacity: 20%;
+  opacity: 40%;
   width: 100%;
   height: 100%;
 }
@@ -128,5 +121,8 @@ const H2 = styled.h2`
     padding-bottom: 2rem;
     text-align: start;
     margin-top: 12rem;
+    @media(max-width:480px){
+    margin-top: 6rem;
+  }
 `;
 

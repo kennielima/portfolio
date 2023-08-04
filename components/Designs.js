@@ -48,7 +48,7 @@ export default function Designs() {
             <H2>UI/UX Design<span style={{ color: '#ffffff' }}>()</span></H2>
             <Splide options={{
                 perPage: 1,
-                arrows: true,
+                arrows: false,
                 pagination: true,
                 drag: 'free',
                 gap: '5rem',
@@ -64,7 +64,7 @@ export default function Designs() {
                                 <Card 
                                 onClick={() => ctx.dispatch({ type: 'hidenav' })}
                                 >
-                                    <Image src={image.image} alt='' width={300} height={300} />
+                                    <Image src={image.image} alt='' width={300} height={300} layout='responsive' />
                                     <p>
                                         <span>{"<"}</span>
                                         {image.span}
@@ -83,23 +83,24 @@ export default function Designs() {
 const Card = styled.div`
   width: auto;
   height: 30rem;
-  background-color: #0c1e3299;
+  background-color: #0c1e32;
   border-radius: 2rem;
   overflow: hidden;
   /* border: 0.3rem solid #D76427; */
   border: 0.3rem solid #62dbfc;
   cursor: pointer;
   position: relative;
+margin: 0 5rem;
+
 &:hover {
-  /* width: 100%; */
-  /* height: 32rem; */
-  background-color: #D7642719;
+  background-color: #D7642769;
   /* border: 0.3rem solid #62dbfc; */
   border: 0.3rem solid #D76427;
   transition: all 0.5s;
 }
-@media(min-width:480px) {
-margin: 0 5rem;
+@media(max-width:480px) {
+margin: auto;
+/* width: 75%; */
 }
 p{
 position: absolute;
@@ -118,7 +119,7 @@ span {
   color: #D76427;
 }
 img {
-  opacity: 15%;
+  opacity: 25%;
   width: 100%;
   height: auto;
 }
@@ -129,5 +130,8 @@ const H2 = styled.h2`
     padding-bottom: 2rem;
     text-align: start;
     margin-top: 12rem;
+    @media(max-width:480px){
+    margin-top: 6rem;
+  }
 `;
 
