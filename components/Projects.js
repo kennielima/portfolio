@@ -40,12 +40,12 @@ const PROJECTS = [
     image: '/deli.json',
     code: 'https://github.com/kennielima/deliciouss.github.io'
   },
-  {
-    href: "https://omnifood.kennielima.vercel.app",
-    span: 'Omnifood',
-    image: '/omni.json',
-    code: 'https://github.com/kennielima/Omnifood'
-  },
+  // {
+  //   href: "https://omnifood.kennielima.vercel.app",
+  //   span: 'Omnifood',
+  //   image: '/omni.json',
+  //   code: 'https://github.com/kennielima/Omnifood'
+  // },
   {
     href: "https://rockets-one.vercel.app/",
     span: 'Acme Rockets',
@@ -78,7 +78,7 @@ function Projects() {
         <h2>Web Development<span style={{ color: '#ffffff' }}>()</span></h2>
         <Splide options={{
           perPage: 1,
-          arrows: false,
+          arrows: true,
           pagination: true,
           drag: 'free',
           gap: '5rem',
@@ -116,7 +116,7 @@ function Projects() {
 const Card = styled.div`
   width: auto;
   height: 30rem;
-  background-color: #0c1e32;
+  background-color: #0c1e3249;
   border-radius: 2rem;
   overflow: hidden;
   /* border: 0.3rem solid #D76427; */
@@ -155,7 +155,7 @@ span {
   color: #D76427;
 }
 img {
-  opacity: 25%;
+  opacity: 20%;
   width: 100%;
 }
 `;

@@ -48,7 +48,7 @@ export default function Designs() {
             <H2>UI/UX Design<span style={{ color: '#ffffff' }}>()</span></H2>
             <Splide options={{
                 perPage: 1,
-                arrows: false,
+                arrows: true,
                 pagination: true,
                 drag: 'free',
                 gap: '5rem',
@@ -83,7 +83,7 @@ export default function Designs() {
 const Card = styled.div`
   width: auto;
   height: 30rem;
-  background-color: #0c1e32;
+  background-color: #0c1e3249;
   border-radius: 2rem;
   overflow: hidden;
   /* border: 0.3rem solid #D76427; */
@@ -119,7 +119,7 @@ span {
   color: #D76427;
 }
 img {
-  opacity: 25%;
+  opacity: 20%;
   width: 100%;
   height: auto;
 }

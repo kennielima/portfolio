@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { styled } from 'styled-components';
 import { motion } from 'framer-motion';
 import textContext from './ContextProvider';
+import Link from 'next/link';
 
 function Hero() {
     const ctx = useContext(textContext);
@@ -32,9 +33,9 @@ function Hero() {
                             className='hello'
                             style={{ paddingLeft: '3.2rem' }}>Front-End Developer
                         </span>
-                        <button><a href='https://docs.google.com/document/d/1OWa3yzpzBZYl7Ab11JrM8FLQwg6DaoZr6v9Jsqn_0Rk/edit#heading=h.arnrh62rcfpt' target='_blank'>Resume</a></button>
+                        <button><Link href='/Resume.pdf' target='_blank'>Resume</Link></button>
                     </div>
-                <Image src='/mypic.png' alt='' id='mypic' height={400} width={400} />
+                <Image src='/mypic2.png' alt='' id='mypic' height={400} width={400} />
                 <Image src='/logojs.svg' alt='' className='logos js' height={200} width={200} />
                 <Image src='/logo.svg' alt='' className='logos react' height={200} width={200} />
                 <Image src='/figma.png' alt='' className='logos figma' height={200} width={200} />
@@ -165,7 +166,7 @@ a {
     justify-content: center;
     gap: 6rem;
     align-items: center;
-    background-image: url('/herodark.png');
+    background-image: url('/herodark22.jpg');
     background-size: auto;
 
 .hello {

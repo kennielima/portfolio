@@ -23,7 +23,7 @@ export default function TechStack() {
           <div><Image src='/next.png' alt='' height={200} width={200} />NextJs</div>
           <div><Image src='/figma.png' alt='' height={200} width={200} />Figma</div>
           <div><Image src='/github.png' alt='' height={200} width={200} /> Git Version Control</div>
-          <div><Image src='/redux.png' alt='' height={200} width={200} /> Redux</div>
+          <div><Image src='/redux1.png' alt='' height={200} width={200} /> Redux</div>
           <div><Image src='/photoshop.png' alt='' height={200} width={200} /> Photoshop </div>
           <div><Image src='/indesign.png' alt='' height={200} width={200} /> InDesign </div>
           <div><Image src='/lms.png' alt='' height={200} width={200} /> Learning Mgt System </div>
