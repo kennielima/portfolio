@@ -6,7 +6,7 @@ export default function news() {
 
   return (
     <div>
-        <Image src={'/newss.svg'} alt='' layout='responsive' width='400' height='400' />
+        <Image src={'/newsj.jpg'} alt='' layout='responsive' width='400' height='400' />
     </div>
   )
 }

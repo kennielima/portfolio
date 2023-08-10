@@ -6,7 +6,7 @@ export default function travel() {
 
   return (
     <div>
-        <Image src={'/travels.svg'} alt=''  layout='responsive' width='400' height='400' />
+        <Image src={'/travelj.jpg'} alt='' layout='responsive' width='400' height='400' />
     </div>
   )
 }

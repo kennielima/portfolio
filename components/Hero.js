@@ -184,6 +184,7 @@ a {
 
 #mypic {
     width: 60%; 
+    /* height: auto; */
     border: 2rem solid rgba(215, 100, 39, 0.91);
 }
 

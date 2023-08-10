@@ -11,6 +11,12 @@ import Graphics from './Graphics';
 
 const PROJECTS = [
   {
+    href: "https://walletapp-tawny.vercel.app",
+    span: 'Crypto App',
+    image: '/wallet2.jpg',
+    code: 'https://github.com/kennielima/walletapp'
+  },
+    {
     href: "https://bettingapp-drab.vercel.app",
     span: ' Betting App',
     image: '/betting.json',
@@ -19,37 +25,27 @@ const PROJECTS = [
   {
     href: "https://foodapp-github-io.vercel.app",
     span: 'Food Ordering App',
-    image: '/food.json',
+    image: '/react.jpg',
     code: 'https://github.com/kennielima/foodapp.github.io'
   },
+
   {
-    href: "https://walletapp-tawny.vercel.app",
-    span: 'Crypto App',
-    image: '/wallet.json',
-    code: 'https://github.com/kennielima/walletapp'
-  },
-  {
-    href: "https://myapp-github-io-three.vercel.app",
-    span: 'Gadgets Site',
-    image: '/advt.json',
-    code: 'https://github.com/kennielima/myapp.github.io'
-  },
-  {
-    href: "https://deliciouss-github-io-kennielima.vercel.app/",
-    span: 'Recipe Site',
+    href: "https://deliciouss-kennielima.vercel.app/",
+    span: 'Food Site',
     image: '/deli.json',
     code: 'https://github.com/kennielima/deliciouss.github.io'
   },
-  // {
-  //   href: "https://omnifood.kennielima.vercel.app",
-  //   span: 'Omnifood',
-  //   image: '/omni.json',
-  //   code: 'https://github.com/kennielima/Omnifood'
-  // },
+    {
+    href: "https://myapp-github-io-three.vercel.app",
+    span: 'Gadgets Site',
+    image: '/advt2.jpg',
+    code: 'https://github.com/kennielima/myapp.github.io'
+  },
+
   {
     href: "https://rockets-one.vercel.app/",
     span: 'Acme Rockets',
-    image: '/rocket.json',
+    image: '/rocket2.jpg',
     code: 'https://github.com/kennielima/rockets'
   },
   {
@@ -64,6 +60,12 @@ const PROJECTS = [
     image: '/tictactoe.json',
     code: 'https://github.com/kennielima/limatictactoe.github.io'
   },
+  // {
+  //   href: "https://omnifood.kennielima.vercel.app",
+  //   span: 'Omnifood',
+  //   image: '/omni.json',
+  //   code: 'https://github.com/kennielima/Omnifood'
+  // },
 ]
 function Projects() {
   const ctx = useContext(textContext);

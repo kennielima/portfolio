@@ -11,17 +11,17 @@ const Images = [
     {
         href: '/color',
         span: 'Landing Page',
-        image: '/color2.png'
+        image: '/color22.jpg'
     },
     {
         href: '/fish',
         span: 'Fish Graphics',
-        image: '/fish2.png'
+        image: '/fish.jpg'
     },
     {
         href: '/nhs',
         span: 'Flier',
-        image: '/nhs.png'
+        image: '/nhs2.jpg'
     },
     {
         href: '/flier',

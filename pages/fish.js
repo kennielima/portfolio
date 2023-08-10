@@ -6,7 +6,7 @@ export default function decorhome() {
 
   return (
     <div>
-        <Image src={'/fish2.png'} alt='' layout='responsive' width='400' height='400'  />
+        <Image src={'/fishj.jpg'} alt='' layout='responsive' width='400' height='400'  />
     </div>
   )
 }

@@ -11,33 +11,33 @@ const Images = [
     {
         href: '/travel',
         span: 'Travel Site',
-        image: '/travels.svg'
+        image: '/travel.jpg'
     },
     {
         href: '/news',
         span: 'News Page',
-        image: 'newss.svg'
+        image: 'news.jpg'
     },
     {
         href: '/eatmore',
         span: 'Food App',
-        image: 'eat4.svg'
+        image: 'eat44.jpg'
     },
     {
         href: '/facebook',
         span: 'Facebook Clone design',
-        image: '/fb4.svg'
+        image: '/fb3.svg'
     },
     {
         href: '/furniture',
         span: 'Furniture Landing page',
-        image: 'furnituree.svg'
+        image: 'furniture.jpg'
     }
     ,
     {
         href: '/decorhome',
         span: 'Decor Landing page',
-        image: 'decorhome.svg'
+        image: 'decorhome2.jpg'
     }
 ]
 export default function Designs() {
