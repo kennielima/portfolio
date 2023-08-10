@@ -77,7 +77,7 @@ const Heros = styled.div`
     border-radius: 50%;
     border: 3rem solid rgba(215, 100, 39, 0.91);
     box-shadow: 1px 1px 100px 10px rgba(215, 100, 39, 0.9);
-    height: 65%;
+    height: 60%;
     width: 40%;
     position:relative;
 }
@@ -90,9 +90,6 @@ const Heros = styled.div`
     border-radius: 50%;
     position:absolute;
     z-index: 0;
-    @media(max-width:480px){
-        display: none;
-    }
 }
 .logos:hover {
     padding: 0.2rem;
@@ -137,6 +134,15 @@ button:hover {
 a {
     text-decoration: none;
 }
+@media(max-width: 1400px){
+#mypic {
+    height: 40%;
+    width: 40%; 
+}
+.logos{
+        display: none;
+    }
+}
 @media(max-width: 900px){
     padding: 0 5%;
     justify-content: space-around;
@@ -145,7 +151,7 @@ a {
     margin-top: 3rem;
 }
 #mypic {
-    height: 35%;
+    height: 30%;
     width: 35%; 
 }
 
@@ -213,3 +219,32 @@ button {
 }
 `;
 export default Hero;
+
+// padding: auto
+// .images {
+//     width: auto;
+//     height: 50%;
+//     border-radius: 50%;
+//     border: 3rem solid rgba(215, 100, 39, 0.91);
+//     box-shadow: 1px 1px 100px 10px rgba(215, 100, 39, 0.9);
+// }
+// #mypic {
+//     height: 100%;
+//     width: 100%;
+//     border-radius: 50%;
+// }
+// .images:hover {
+//     padding: 0.1rem;
+//     border: 3rem solid rgba(215, 100, 39, 0.5);
+//     transition: all 0.3s;
+// }
+// .images {
+//     width: 35%; 
+//     height: 35%;
+// }
+// .images {
+//     margin: 0 8rem;
+//     width: auto; 
+//     height: 35%;
+//     border: 2rem solid rgba(215, 100, 39, 0.91);
+// }

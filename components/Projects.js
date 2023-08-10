@@ -31,13 +31,13 @@ const PROJECTS = [
 
   {
     href: "https://deliciouss-kennielima.vercel.app/",
-    span: 'Food Site',
+    span: 'Deliciouss',
     image: '/deli.json',
     code: 'https://github.com/kennielima/deliciouss.github.io'
   },
     {
     href: "https://myapp-github-io-three.vercel.app",
-    span: 'Gadgets Site',
+    span: 'Advt',
     image: '/advt2.jpg',
     code: 'https://github.com/kennielima/myapp.github.io'
   },
