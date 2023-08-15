@@ -24,7 +24,7 @@ const PROJECTS = [
   },
   {
     href: "https://foodapp-github-io.vercel.app",
-    span: 'Food Ordering App',
+    span: 'FoodOnline',
     image: '/react.jpg',
     code: 'https://github.com/kennielima/foodapp.github.io'
   },
@@ -49,7 +49,7 @@ const PROJECTS = [
     code: 'https://github.com/kennielima/rockets'
   },
   {
-    href: "https://expenses.vert.vercel.app",
+    href: "https://expenses-vert.vercel.app",
     span: 'Expenses app',
     image: '/expense.json',
     code: 'https://github.com/kennielima/expenses'
