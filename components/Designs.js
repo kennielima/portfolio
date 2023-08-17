@@ -47,15 +47,20 @@ export default function Designs() {
         <div>
             <H2>UI/UX Design<span style={{ color: '#ffffff' }}>()</span></H2>
             <Splide options={{
-                perPage: 1,
+                perPage: 2,
                 arrows: true,
                 pagination: true,
                 drag: 'free',
-                gap: '5rem',
+                gap: '1rem',
                 // type: 'loop',
                 perMove: 1,
                 width: 'auto',
-                height: '33rem'
+                height: '33rem',
+                breakpoints: {
+                    640: {
+                      perPage: 1,
+                    },
+                  }
             }}>
                 {Images.map((image) => {
                     return (

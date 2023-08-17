@@ -79,15 +79,20 @@ function Projects() {
         <h1>My Projects<span style={{ color: '#ffffff' }}>()</span></h1>
         <h2>Web Development<span style={{ color: '#ffffff' }}>()</span></h2>
         <Splide options={{
-          perPage: 1,
+          perPage: 2,
           arrows: true,
           pagination: true,
           drag: 'free',
-          gap: '5rem',
+          gap: '1rem',
           // type: 'loop',
           perMove: 1,
           width: 'auto',
-          height: '35rem'
+          height: '35rem',
+          breakpoints: {
+            640: {
+              perPage: 1,
+            },
+          }
         }}>
           {PROJECTS.map((project) => {
             return (
