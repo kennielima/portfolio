@@ -38,7 +38,7 @@ export default function Contact() {
         <Fragment>
             <Hire ref={ref}>
                 <h1>Hire Me<span>()</span></h1>
-                <h2 id='subhead'>{"if (feedback = positive && interested.workingTogether){ let kennie === 'happy';"}</h2>
+                <h2 id='subhead'>{"if (feedback === positive && interested.workingTogether){ let kennie = 'happy';"}</h2>
 
                 <Form
                     onSubmit={submitform}
