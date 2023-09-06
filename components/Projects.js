@@ -7,7 +7,6 @@ import '@splidejs/splide/dist/css/splide.min.css';
 import Image from 'next/image';
 import Designs from './Designs';
 import Graphics from './Graphics';
-// import Link from 'next/link';
 
 const PROJECTS = [
   {
