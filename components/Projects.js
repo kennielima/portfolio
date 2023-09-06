@@ -13,14 +13,8 @@ const PROJECTS = [
   {
     href: "https://movieverse-neon.vercel.app",
     span: 'Movieverse',
-    image: '/movies.json',
-    code: 'https://github.com/kennielima/limatictactoe.github.io'
-  },
-  {
-    href: "https://walletapp-tawny.vercel.app",
-    span: 'Crypto App',
-    image: '/wallet2.jpg',
-    code: 'https://github.com/kennielima/walletapp'
+    image: '/movies.jpg',
+    code: 'https://github.com/kennielima/movieverse'
   },
     {
     href: "https://bettingapp-drab.vercel.app",
@@ -29,12 +23,17 @@ const PROJECTS = [
     code: 'https://github.com/kennielima/betting-app'
   },
   {
+    href: "https://walletapp-tawny.vercel.app",
+    span: 'Crypto App',
+    image: '/wallet2.jpg',
+    code: 'https://github.com/kennielima/walletapp'
+  },
+  {
     href: "https://foodapp-github-io.vercel.app",
     span: 'FoodOnline',
     image: '/react.jpg',
     code: 'https://github.com/kennielima/foodapp.github.io'
   },
-
   {
     href: "https://deliciouss-kennielima.vercel.app/",
     span: 'Deliciouss',
@@ -47,7 +46,6 @@ const PROJECTS = [
     image: '/advt2.jpg',
     code: 'https://github.com/kennielima/myapp.github.io'
   },
-
   {
     href: "https://rockets-one.vercel.app/",
     span: 'Acme Rockets',
