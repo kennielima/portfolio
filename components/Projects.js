@@ -11,6 +11,12 @@ import Graphics from './Graphics';
 
 const PROJECTS = [
   {
+    href: "https://movieverse-neon.vercel.app",
+    span: 'Movieverse',
+    image: '/movies.json',
+    code: 'https://github.com/kennielima/limatictactoe.github.io'
+  },
+  {
     href: "https://walletapp-tawny.vercel.app",
     span: 'Crypto App',
     image: '/wallet2.jpg',
