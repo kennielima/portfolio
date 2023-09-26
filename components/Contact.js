@@ -78,7 +78,7 @@ export default function Contact() {
                         <a href='https://github.com/kennielima' target='_blank'><Image src='/github.png' alt='' height={50} width={50} /></a>
                         <a href='https://www.linkedin.com/in/kennielima/' target='_blank'><Image src='/linkedinn.png' alt='' height={50} width={50} /></a>
                     </div>
-                    <footer>&#169; Kennie's Portfolio. 2023</footer>
+                    <footer>Built with Javascript & ❤️ by Kennielima. &#169; 2023</footer>
                 </Links>
             </Hire>
         </Fragment>
