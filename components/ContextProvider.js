@@ -9,23 +9,17 @@ export function ContextProvider(props) {
     const reducer = (state, action) => {
         switch (action.type) {
             case 'stackclick':
-                view = "stackscroll"
-                return view;
+                return view = "stackscroll"
             case 'homeclick':
-                view = "heroscroll"
-                return view;
+               return view = "heroscroll"
             case 'projectclick':
-                view = "projectscroll"
-                return view;
+               return view = "projectscroll"
             case 'aboutclick':
-                view = "aboutscroll"
-                return view;
+               return view = "aboutscroll"
             case 'contactclick':
-                view = "contactscroll"
-                return view;
+               return view = "contactscroll"
             case 'hidenav':
-                view = "hidenav"
-                return view;
+               return view = "hidenav"
             default:
                 return state;
         }
