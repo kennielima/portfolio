@@ -14,7 +14,7 @@ export default function Projects() {
             <About ref={ref}>
                 <h1>About Me<span>()</span></h1>
                 <Desc>
-                    I am a self taught web developer who started my journey a year ago. I started out as an IT Career Consultant. My job, however exposed me to more technical paths, i.e graphic design and UI/UX design. However, I fell in love with writing code and focused fully on it. I am currently looking for growing and practical learning opportunities.
+                    Self taught web developer with a passion for learning, building pixel-perfect and interactive websites. Background in IT Career Counseling, graphic and UI/UX design. Currently looking for practical learning opportunities in a progressive environment.
                 </Desc>
                 <h2>What I do<span style={{ color: '#D76427' }}>()</span></h2>
                 <Grid>

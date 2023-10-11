@@ -84,7 +84,7 @@ const Heros = styled.div`
 #mypic:hover {
     padding: 0.1rem;
     border: 3rem solid rgba(215, 100, 39, 0.5);
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
 }
 .logos{
     border-radius: 50%;

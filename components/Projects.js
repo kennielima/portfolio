@@ -13,55 +13,82 @@ const PROJECTS = [
     href: "https://movieverse-neon.vercel.app",
     span: 'Movieverse',
     image: '/movies.jpg',
-    code: 'https://github.com/kennielima/movieverse'
+    code: 'https://github.com/kennielima/movieverse',
+    stack1: 'NextJs',
+    stack2: 'TailwindCSS',
+    stack3: 'REST API',
   },
-    {
+  {
     href: "https://bettingapp-drab.vercel.app",
     span: ' Betting App',
     image: '/betting.json',
-    code: 'https://github.com/kennielima/betting-app'
+    code: 'https://github.com/kennielima/betting-app',
+    stack1: 'ReactJs',
+    stack2: 'Stripe',
+    stack3: 'Google OAuth',
+    stack4: 'Context API',
   },
   {
     href: "https://walletapp-tawny.vercel.app",
     span: 'Crypto App',
     image: '/wallet2.jpg',
-    code: 'https://github.com/kennielima/walletapp'
+    code: 'https://github.com/kennielima/walletapp',
+    stack1: 'ReactJs',
+    stack2: 'Framer',
+    stack3: 'Tawk',
+    stack4: 'FormSpark',
   },
   {
     href: "https://foodapp-github-io.vercel.app",
     span: 'FoodOnline',
     image: '/react.jpg',
-    code: 'https://github.com/kennielima/foodapp.github.io'
+    code: 'https://github.com/kennielima/foodapp.github.io',
+    stack1: 'ReactJs',
+    stack2: 'Context API',
+    stack3: 'CSS Modules',
   },
   {
     href: "https://deliciouss-kennielima.vercel.app/",
     span: 'Deliciouss',
     image: '/deli.json',
-    code: 'https://github.com/kennielima/deliciouss.github.io'
+    code: 'https://github.com/kennielima/deliciouss.github.io',
+    stack1: 'ReactJs',
+    stack2: 'Splide',
+    stack3: 'REST API',
+    stack4: 'Framer',
   },
-    {
+  {
     href: "https://myapp-github-io-three.vercel.app",
     span: 'Advt',
     image: '/advt2.jpg',
-    code: 'https://github.com/kennielima/myapp.github.io'
+    code: 'https://github.com/kennielima/myapp.github.io',
+    stack1: 'HTML',
+    stack2: 'CSS',
+    stack3: 'Javascript'
   },
   {
     href: "https://rockets-one.vercel.app/",
     span: 'Acme Rockets',
     image: '/rocket2.jpg',
-    code: 'https://github.com/kennielima/rockets'
+    code: 'https://github.com/kennielima/rockets',
+    stack1: 'HTML',
+    stack2: 'TailwindCSS',
   },
   {
     href: "https://expenses-vert.vercel.app",
     span: 'Expenses app',
     image: '/expense.json',
-    code: 'https://github.com/kennielima/expenses'
+    code: 'https://github.com/kennielima/expenses',
+    stack1: 'ReactJs',
+    stack2: 'CSS',
   },
   {
     href: "https://limatictactoe-github-io.vercel.app",
     span: 'A Game of TIC-TAC-TOE',
     image: '/tictactoe.json',
-    code: 'https://github.com/kennielima/limatictactoe.github.io'
+    code: 'https://github.com/kennielima/limatictactoe.github.io',
+    stack1: 'HTML',
+    stack2: 'Javascript'
   },
   // {
   //   href: "https://omnifood.kennielima.vercel.app",
@@ -102,15 +129,24 @@ function Projects() {
               <SplideSlide key={Math.random()}>
                 <a href={project.href} target="_blank">
                   <Card key={Math.random()}>
-                    <Image src={project.image} alt='' layout='fill'/>
+                    <Image src={project.image} alt='' layout='fill' />
                     <p>
                       <span>{"<"}</span>
                       {project.span}
                       <span>{"/>"}</span>
                     </p>
+
                   </Card>
                 </a>
-                <a href={project.code} target="_blank"><button id='code'> Source Code</button></a>
+                <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', position: 'relative', bottom: '2.7rem' }}>
+                  <Stack> {project.stack1} </Stack>
+                  <Stack> {project.stack2} </Stack>
+                  {project.stack3 && <Stack> {project.stack3} </Stack>}
+                  {project.stack4 && <Stack> {project.stack4} </Stack>}
+                </div>
+                <a href={project.code} target="_blank">
+                  <button id='code'> Source Code</button>
+                </a>
               </SplideSlide>
             )
           })}
@@ -122,6 +158,14 @@ function Projects() {
     </Fragment>
   )
 }
+const Stack = styled.div`
+background-color: #333333;
+ border: none;
+  padding: 0.1rem 1rem;
+  font-size:1.3rem;
+  font-family: roboto;
+  border-radius: 0.5rem;
+`
 
 const Card = styled.div`
   width: auto;
@@ -143,10 +187,6 @@ const Card = styled.div`
 @media(min-width:480px) {
 margin: 0 4rem;
 }
-/* @media(max-width:600px) {
-  width: 20rem;
-  height: 20rem;
-} */
 
 p{
 position: absolute;

@@ -11,27 +11,32 @@ const Images = [
     {
         href: '/color',
         span: 'Landing Page',
-        image: '/color22.jpg'
+        image: '/color22.jpg',
+        stack: 'Photoshop'
     },
     {
         href: '/fish',
         span: 'Fish Graphics',
-        image: '/fish.jpg'
+        image: '/fish.jpg',
+        stack: 'Photoshop'
     },
     {
         href: '/nhs',
         span: 'Flier',
-        image: '/nhs2.jpg'
+        image: '/nhs2.jpg',
+        stack: 'Photoshop'
     },
     {
         href: '/flier',
         span: 'Flier',
-        image: '/flier.jpg'
+        image: '/flier.jpg',
+        stack: 'InDesign'
     },
     {
         href: '/flier2',
         span: 'Flier',
-        image: '/flier2.jpg'
+        image: '/flier2.jpg',
+        stack: 'InDesign'
     }
 ]
 export default function Graphics() {
@@ -52,26 +57,27 @@ export default function Graphics() {
                 height: '33rem',
                 breakpoints: {
                     640: {
-                      perPage: 1,
+                        perPage: 1,
                     },
-                  }
+                }
             }}>
                 {Images.map((image) => {
                     return (
                         <SplideSlide key={Math.random()}>
                             <Link href={image.href} target="_blank">
                                 <Card
-                                 onClick={() => ctx.dispatch({type: 'hidenav'})}
-                                 >
+                                    onClick={() => ctx.dispatch({ type: 'hidenav' })}
+                                >
                                     <Image src={image.image} alt='' layout='fill' />
                                     <p>
-                                    <span>{"<"}</span>
+                                        <span>{"<"}</span>
                                         {image.span}
                                         <span>{"/>"}</span>
-                                        </p>
+                                    </p>
                                     {/* <Image src={} alt='' width={300} height={300} /> */}
                                 </Card>
                             </Link>
+                            <Stack> {image.stack} </Stack>
                         </SplideSlide>
                     )
                 })}
@@ -79,7 +85,18 @@ export default function Graphics() {
         </div>
     )
 }
-
+const Stack = styled.div`
+background-color: #333333;
+ border: none;
+  padding: 0.1rem 1rem;
+  font-size:1.3rem;
+  font-family: roboto;
+  border-radius: 0.5rem;
+  margin: auto;
+position: relative; 
+bottom: 2.7rem;
+width: 8rem;
+`
 const Card = styled.div`
   width: auto;
   height: 30rem;
