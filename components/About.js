@@ -33,7 +33,7 @@ export default function Projects() {
                     <Card>
                         <h3><span>{"<"}</span>IT Consulting<span>{"/>"}</span></h3>
                         <p>
-                            With 3 years experience in IT consulting, I counsel tech newbies on their career paths. I track progress with LMS tools and coordinate all running projects from start to finish</p>
+                            3 years experience in IT Career Consulting and ACIPM Certified, I counsel tech students on career paths. I track progress with LMS tools and coordinate projects from start to finish</p>
                     </Card>
                     <Card>
                         <h3><span>{"<"}</span>Technical Writing<span>{"/>"}</span></h3>

@@ -20,11 +20,13 @@ export default function TechStack() {
           <div><Image src='/js.png' alt='' height={200} width={200} />Javascript</div>
           <div><Image src='/logo.svg' alt='' height={200} width={200} />ReactJs</div>
           <div><Image src='/next.png' alt='' height={200} width={200} />NextJs</div>
+          <div><Image src='/ts.png' alt='' height={200} width={200} /> Typescript </div>
           <div><Image src='/tailwind.png' alt='' height={200} width={200} />TailwindCSS</div>
           <div><Image src='/github.png' alt='' height={200} width={200} /> Git Version Control</div>
+          <div><Image src='/fb.png' alt='' height={200} width={200} /> Firebase </div>
           <div><Image src='/redux2.jpg' alt='' height={200} width={200} /> Redux</div>
           <div><Image src='/npm.png' alt='' height={200} width={200} /> NPM </div>
-          {/* <div><Image src='/api.png' alt='' height={200} width={200} /> REST APIs </div> */}
+          <div><Image src='/api.png' alt='' height={200} width={200} /> REST APIs </div>
           <div><Image src='/figma.png' alt='' height={200} width={200} />Figma</div>
           <div><Image src='/photoshop.png' alt='' height={200} width={200} /> Photoshop </div>
           <div><Image src='/indesign.png' alt='' height={200} width={200} /> InDesign </div>

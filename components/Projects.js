@@ -10,6 +10,17 @@ import Graphics from './Graphics';
 
 const PROJECTS = [
   {
+    href: "https://msboutique.vercel.app",
+    span: 'MyStory Boutique',
+    image: '/msb.jpg',
+    code: 'https://github.com/kennielima/ms-boutique',
+    stack1: 'TypeScript',
+    stack2: 'NextJs',
+    stack3: 'TailwindCSS',
+    stack4: 'Firebase',
+    stack5: 'Swiper'
+  },
+  {
     href: "https://movieverse-neon.vercel.app",
     span: 'Movieverse',
     image: '/movies.jpg',
@@ -19,33 +30,25 @@ const PROJECTS = [
     stack3: 'REST API',
   },
   {
-    href: "https://bettingapp-drab.vercel.app",
-    span: ' Betting App',
+    href: "https://peerstake.vercel.app/",
+    span: 'Peer Stake',
     image: '/betting.json',
     code: 'https://github.com/kennielima/betting-app',
     stack1: 'ReactJs',
     stack2: 'Stripe',
     stack3: 'Google OAuth',
     stack4: 'Context API',
+    // stack5: 'React Router',
   },
   {
     href: "https://walletapp-tawny.vercel.app",
-    span: 'Crypto App',
+    span: 'WalletNode',
     image: '/wallet2.jpg',
     code: 'https://github.com/kennielima/walletapp',
     stack1: 'ReactJs',
     stack2: 'Framer',
     stack3: 'Tawk',
-    stack4: 'FormSpark',
-  },
-  {
-    href: "https://foodapp-github-io.vercel.app",
-    span: 'FoodOnline',
-    image: '/react.jpg',
-    code: 'https://github.com/kennielima/foodapp.github.io',
-    stack1: 'ReactJs',
-    stack2: 'Context API',
-    stack3: 'CSS Modules',
+    stack4: 'React Router',
   },
   {
     href: "https://deliciouss-kennielima.vercel.app/",
@@ -56,15 +59,36 @@ const PROJECTS = [
     stack2: 'Splide',
     stack3: 'REST API',
     stack4: 'Framer',
+    stack5: 'React Router',
   },
   {
-    href: "https://myapp-github-io-three.vercel.app",
+    href: "https://foodonline-io.vercel.app",
+    span: 'FoodOnline',
+    image: '/fo.jpg',
+    code: 'https://github.com/kennielima/foodapp.github.io',
+    stack1: 'ReactJs',
+    stack2: 'Context API',
+    stack3: 'CSS Modules',
+  },
+    {
+    href: "https://advtgadgets.vercel.app",
     span: 'Advt',
     image: '/advt2.jpg',
     code: 'https://github.com/kennielima/myapp.github.io',
     stack1: 'HTML',
     stack2: 'CSS',
     stack3: 'Javascript'
+  },
+  {
+    href: "https://kennielima.vercel.app",
+    span: 'Portfolio Project',
+    image: '/portf.jpg',
+    code: 'https://github.com/kennielima/portfolio.github.io',
+    stack1: 'NextJs',
+    stack2: 'Framer',
+    stack3: 'Splide',
+    stack4: 'Formspark',
+    stack5: 'Context API',
   },
   {
     href: "https://rockets-one.vercel.app/",
@@ -143,6 +167,7 @@ function Projects() {
                   <Stack> {project.stack2} </Stack>
                   {project.stack3 && <Stack> {project.stack3} </Stack>}
                   {project.stack4 && <Stack> {project.stack4} </Stack>}
+                  {project.stack5 && <Stack> {project.stack5} </Stack>}
                 </div>
                 <a href={project.code} target="_blank">
                   <button id='code'> Source Code</button>
