@@ -33,7 +33,7 @@ function Hero() {
                             className='hello'
                             style={{ paddingLeft: '3.2rem' }}>Front-End Developer
                         </span>
-                        <button><Link href='/Resume.pdf' target='_blank'>Resume</Link></button>
+                        <button><Link href='/OYEWALE-KEHINDE.pdf' target='_blank'>Resume</Link></button>
                     </div>
                 <Image src='/mypic2.png' alt='' id='mypic' height={400} width={400} />
                 <Image src='/logojs.svg' alt='' className='logos js' height={200} width={200} />
