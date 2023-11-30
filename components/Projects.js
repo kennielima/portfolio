@@ -11,7 +11,7 @@ import Graphics from './Graphics';
 const PROJECTS = [
   {
     href: "https://msboutique.vercel.app",
-    span: 'MyStory Boutique',
+    span: 'MSB-ongoing',
     image: '/msb.jpg',
     code: 'https://github.com/kennielima/ms-boutique',
     stack1: 'TypeScript',
