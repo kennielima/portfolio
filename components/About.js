@@ -14,7 +14,7 @@ export default function Projects() {
             <About ref={ref}>
                 <h1>About Me<span>()</span></h1>
                 <Desc>
-                    Self taught web developer with a passion for learning, building pixel-perfect and interactive websites. Background in IT Career Counseling, graphic and UI/UX design. Currently looking for practical learning opportunities in a progressive environment.
+                    Self-taught web developer with a passion for learning, building pixel-perfect and interactive websites. Background in IT Career Counseling, graphic and UI/UX design. Currently looking for practical learning opportunities in a progressive environment.
                 </Desc>
                 <h2>What I do<span style={{ color: '#D76427' }}>()</span></h2>
                 <Grid>
