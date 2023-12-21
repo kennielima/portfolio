@@ -35,10 +35,10 @@ function Hero() {
                         </span>
                         <button><Link href='/OYEWALE-KEHINDE.pdf' target='_blank'>Resume</Link></button>
                     </div>
-                <Image src='/mypic2.png' alt='' id='mypic' height={400} width={400} />
-                <Image src='/logojs.svg' alt='' className='logos js' height={200} width={200} />
+                <Image src='/unnamed2.jpg' alt='' id='mypic' height={400} width={400} />
+                {/* <Image src='/logojs.svg' alt='' className='logos js' height={200} width={200} />
                 <Image src='/logo.svg' alt='' className='logos react' height={200} width={200} />
-                <Image src='/figma.png' alt='' className='logos figma' height={200} width={200} />
+                <Image src='/figma.png' alt='' className='logos figma' height={200} width={200} /> */}
             </Heros>
             <hr style={{ border: '2px solid #D76427' }}></hr>
         </Fragment>
@@ -77,8 +77,8 @@ const Heros = styled.div`
     border-radius: 50%;
     border: 3rem solid rgba(215, 100, 39, 0.91);
     box-shadow: 1px 1px 100px 10px rgba(215, 100, 39, 0.9);
-    height: 60%;
-    width: 40%;
+    height: 65%;
+    width: 35%;
     position:relative;
 }
 #mypic:hover {
@@ -136,13 +136,18 @@ a {
 }
 @media(max-width: 1400px){
 #mypic {
-    height: 40%;
-    width: 40%; 
+    height: 55%;
+    width: 35%; 
 }
 .logos{
         display: none;
     }
 }
+@media(max-width: 1050px){
+#mypic {
+    height: 50%;
+    width: 35%; 
+}}
 @media(max-width: 900px){
     padding: 0 5%;
     justify-content: space-around;
@@ -151,7 +156,7 @@ a {
     margin-top: 3rem;
 }
 #mypic {
-    height: 30%;
+    height: 40%;
     width: 35%; 
 }
 
@@ -167,6 +172,11 @@ a {
     top: 60%;
 }
 }
+@media(max-width: 768px){
+    #mypic {
+    height: 35%;
+    width: 35%; 
+}}
 @media(max-width: 480px){
     flex-direction: column;
     justify-content: center;
@@ -189,8 +199,8 @@ a {
 }
 
 #mypic {
-    width: 60%; 
-    /* height: auto; */
+    width: 65%; 
+    height: 40%;
     border: 2rem solid rgba(215, 100, 39, 0.91);
 }
 
@@ -219,6 +229,9 @@ button {
 }
 `;
 export default Hero;
+
+
+
 
 // padding: auto
 // .images {

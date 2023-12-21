@@ -11,33 +11,39 @@ const Images = [
     {
         href: '/travel',
         span: 'Travel Site',
-        image: '/travel.jpg'
+        image: '/travel.jpg',
+        link: 'https://www.figma.com/community/file/1225359101618116677/travel-landing'
     },
     {
         href: '/news',
         span: 'News Page',
-        image: 'news.jpg'
+        image: 'news.jpg',
+        link: 'https://www.figma.com/community/file/1225359767537955917/daily-news'
     },
     {
         href: '/eatmore',
         span: 'Food App',
-        image: 'eat44.jpg'
+        image: 'eat44.jpg',
+        link: 'https://www.figma.com/community/file/1225359243560872007/food-app'
     },
     {
         href: '/facebook',
         span: 'Facebook Clone design',
-        image: '/fb3.svg'
+        image: '/fb3.svg',
+        link: 'https://www.figma.com/community/file/1225360138629097551/decorhome'
     },
     {
         href: '/furniture',
         span: 'Furniture Landing page',
-        image: 'furniture.jpg'
+        image: 'furniture.jpg',
+        link: 'https://www.figma.com/community/file/1225359388539450441/furniture-landing-page'
     }
     ,
     {
         href: '/decorhome',
         span: 'Decor Landing page',
-        image: 'decorhome2.jpg'
+        image: 'decorhome2.jpg',
+        link: 'https://www.figma.com/community/file/1225360138629097551/decorhome'
     }
 ]
 export default function Designs() {
@@ -55,19 +61,19 @@ export default function Designs() {
                 // type: 'loop',
                 perMove: 1,
                 width: 'auto',
-                height: '33rem',
+                height: '35rem',
                 breakpoints: {
                     640: {
-                      perPage: 1,
+                        perPage: 1,
                     },
-                  }
+                }
             }}>
                 {Images.map((image) => {
                     return (
                         <SplideSlide key={Math.random()}>
                             <Link href={image.href} target="_blank">
-                                <Card 
-                                onClick={() => ctx.dispatch({ type: 'hidenav' })}
+                                <Card
+                                    onClick={() => ctx.dispatch({ type: 'hidenav' })}
                                 >
                                     <Image src={image.image} alt='' width={300} height={300} layout='responsive' />
                                     <p>
@@ -77,6 +83,9 @@ export default function Designs() {
                                     </p>
                                 </Card>
                             </Link>
+                            <a href={image.link} target="_blank">
+                                <button style={{padding:"0.5rem 1rem", border:'none',borderRadius:"0.5rem"}}> Figma Link </button>
+                            </a>
                         </SplideSlide>
                     )
                 })}

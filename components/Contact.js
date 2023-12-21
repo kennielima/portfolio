@@ -38,7 +38,7 @@ export default function Contact() {
         <Fragment>
             <Hire ref={ref}>
                 <h1>Hire Me<span>()</span></h1>
-                <h2 id='subhead'>{"if (feedback === positive && interested.workingTogether){ let kennie = 'happy';"}</h2>
+                <h2 id='subhead'>{"if (feedback === positive && interested.workingTogether){ let kennie = 'happy'}"}</h2>
 
                 <Form
                     onSubmit={submitform}
@@ -89,7 +89,7 @@ h2 {
     font-size: 3rem;
     font-weight: normal;
     letter-spacing: 0.2rem;
-    margin: 5rem 0 3rem 0;
+    margin: 8rem 0 3rem 0;
 }
 div {
     display: flex;
@@ -135,9 +135,11 @@ input{
     padding-bottom: 12rem;
 }
 button {
-    width: auto;
+    width: 10rem;
     padding: 1rem 3rem;
-    margin: -1rem 0 0 auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
     background-color: #D76427;
     border: 1px solid white;
     border-radius: 1rem;

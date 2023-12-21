@@ -83,7 +83,7 @@ const PROJECTS = [
     href: "https://kennielima.vercel.app",
     span: 'Portfolio Project',
     image: '/portf.jpg',
-    code: 'https://github.com/kennielima/portfolio.github.io',
+    code: 'https://github.com/kennielima/portfolio',
     stack1: 'NextJs',
     stack2: 'Framer',
     stack3: 'Splide',
@@ -195,7 +195,7 @@ background-color: #333333;
 const Card = styled.div`
   width: auto;
   height: 30rem;
-  background-color: #0c1e3249;
+  background-color: #0c1e3259;
   border-radius: 2rem;
   overflow: hidden;
   /* border: 0.3rem solid #D76427; */
@@ -264,13 +264,14 @@ text-align: start;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   border: none;
-  /* position: relative;
-  top: -2.2rem; */
+  position: relative;
+  top: -1.6rem; 
 }
 button{
   color: white;
   background-color: #ac501fc9;
   cursor: pointer;
+  /* padding: 1rem; */
 }
 button:hover {
   background-color: #D76427;
