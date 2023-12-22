@@ -16,7 +16,7 @@ export default function Projects() {
                 <Desc>
                     Self-taught web developer with a passion for learning, building pixel-perfect and interactive websites. Background in IT Career Consulting, graphic and UI/UX design. Currently looking for practical learning opportunities in a progressive environment.
                 </Desc>
-                <h2>What I do<span style={{ color: '#D76427' }}>()</span></h2>
+                <h2><b><span style={{ color: '#D76427' }}>What I do</span>()</b></h2>
                 <Grid>
                     <Card>
                         <h3><span>{"<"}</span>Web Development<span>{"/>"}</span></h3>

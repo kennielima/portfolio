@@ -13,24 +13,29 @@ export default function TechStack() {
   return (
     <Fragment>
       <Stacks ref={ref}>
-        <h1>TechStack<span style={{ color: '#D76427' }}>()</span></h1>
+        <h1>TechStack<span style={{ color: '#ffffff' }}>()</span></h1>
         <Grid>
-          <div><Image src='/html.svg' alt='' height={400} width={400} />Html</div>
+          <div><Image src='/html.svg' alt='' height={400} width={400} />HTML</div>
           <div><Image src='/css.png' alt='' height={200} width={200} />CSS</div>
           <div><Image src='/js.png' alt='' height={200} width={200} />Javascript</div>
+          <div><Image src='/ts.png' alt='' height={200} width={200} /> Typescript </div>
           <div><Image src='/logo.svg' alt='' height={200} width={200} />ReactJs</div>
           <div><Image src='/next.png' alt='' height={200} width={200} />NextJs</div>
-          <div><Image src='/ts.png' alt='' height={200} width={200} /> Typescript </div>
           <div><Image src='/tailwind.png' alt='' height={200} width={200} />TailwindCSS</div>
-          <div><Image src='/github.png' alt='' height={200} width={200} /> Git Version Control</div>
           <div><Image src='/fb.png' alt='' height={200} width={200} /> Firebase </div>
-          <div><Image src='/redux2.jpg' alt='' height={200} width={200} /> Redux</div>
-          <div><Image src='/api.png' alt='' height={200} width={200} /> REST APIs </div>
-          <div><Image src='/jira.png' alt='' height={200} width={200} /> Jira </div>
+          <div><Image src='/github.png' alt='' height={200} width={200} /> Git Version Control</div>
+          <div><Image src='/jiraa.png' alt='' height={200} width={200} /> Jira </div>
           <div><Image src='/figma.png' alt='' height={200} width={200} />Figma</div>
           <div><Image src='/photoshop.png' alt='' height={200} width={200} /> Photoshop </div>
-          <div><Image src='/indesign.png' alt='' height={200} width={200} /> InDesign </div>
-
+          <div><Image src='/pman.png' alt='' height={200} width={200} /> Postman </div>
+          <div><Image src='/redux2.jpg' alt='' height={200} width={200} /> Redux</div>
+          <div><Image src='/indesign.png' alt='' height={200} width={200} /> InDesign </div> 
+        </Grid>
+        <h2 style={{color: '#62dbfc', fontSize:'2rem'}}>Currently Learning<span>()</span></h2>
+        <Grid>
+          <div><Image src='/node.png' alt='' height={200} width={200} />NodeJs <br />(in view)</div>
+          <div><Image src='/xpress.png' alt='' height={200} width={200} /> Express <br />(in view)</div>
+          <div><Image src='/mongo.png' alt='' height={200} width={200} /> MongoDb <br />(in view)</div>
         </Grid>
       </Stacks>
       <hr style={{ border: '2px solid #D76427' }}></hr>
