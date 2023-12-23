@@ -25,13 +25,14 @@ export default function TechStack() {
           <div><Image src='/fb.png' alt='' height={200} width={200} /> Firebase </div>
           <div><Image src='/github.png' alt='' height={200} width={200} /> Git Version Control</div>
           <div><Image src='/jiraa.png' alt='' height={200} width={200} /> Jira </div>
-          <div><Image src='/figma.png' alt='' height={200} width={200} />Figma</div>
-          <div><Image src='/photoshop.png' alt='' height={200} width={200} /> Photoshop </div>
           <div><Image src='/pman.png' alt='' height={200} width={200} /> Postman </div>
           <div><Image src='/redux2.jpg' alt='' height={200} width={200} /> Redux</div>
-          <div><Image src='/indesign.png' alt='' height={200} width={200} /> InDesign </div> 
+          <div><Image src='/figma.png' alt='' height={200} width={200} />Figma</div>
+          <div><Image src='/photoshop.png' alt='' height={200} width={200} /> Photoshop </div>
+          <div><Image src='/indesign.png' alt='' height={200} width={200} /> InDesign </div>
+
         </Grid>
-        <h2 style={{color: '#62dbfc', fontSize:'2rem'}}>Currently Learning<span>()</span></h2>
+        <h2 style={{ color: '#62dbfc', fontSize: '2rem' }}>Currently Learning<span>()</span></h2>
         <Grid>
           <div><Image src='/node.png' alt='' height={200} width={200} />NodeJs <br />(in view)</div>
           <div><Image src='/xpress.png' alt='' height={200} width={200} /> Express <br />(in view)</div>

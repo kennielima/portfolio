@@ -14,27 +14,30 @@ function Hero() {
     return (
         <Fragment>
             <Heros ref={ref}>
-                    <div id='intro'>
-                        <span className='hello'>Hello,  I am</span>
+                <div id='intro'>
+                    <span className='hello'>Hello,  I am</span>
+                    <span
+                        className='names'
+                        style={{ paddingLeft: '4rem' }}>
                         <span
-                            className='names'
-                            style={{ paddingLeft: '4rem' }}>
-                            <span
-                                style={{ fontSize: '6rem', color: '#d76527' }}>{"<"}</span>
-                            Kehinde
-                        </span>
-                        <span
-                            className='names'
-                            id='surname'
-                            style={{ paddingLeft: '11rem' }}>Oyewale
-                            <span style={{ fontSize: '5rem', color: '#d76527' }}>{"/>"}</span>
-                        </span>
-                        <span
-                            className='hello'
-                            style={{ paddingLeft: '3.2rem' }}>Front-End Developer
-                        </span>
-                        <button><Link href='/OYEWALE-KEHINDE.pdf' target='_blank'>Resume</Link></button>
-                    </div>
+                            style={{ fontSize: '6rem', color: '#d76527' }}>{"<"}</span>
+                        Kehinde
+                    </span>
+                    <span
+                        className='names'
+                        id='surname'
+                        style={{ paddingLeft: '11rem' }}>Oyewale
+                        <span style={{ fontSize: '5rem', color: '#d76527' }}>{"/>"}</span>
+                    </span>
+                    <span
+                        className='hello'
+                        style={{ paddingLeft: '3.2rem' }}>Front-End Developer
+                    </span>
+                    <button style={{ display: 'flex', alignItems: 'center' }}>
+                        <Link href='/OYEWALE-KEHINDE.pdf' target='_blank'>Resume </Link>
+                        <Image src='cvv.png' style={{ marginLeft:'0.2rem' }} alt='' height={18} width={18} />
+                    </button>
+                </div>
                 <Image src='/unnamed2.jpg' alt='' id='mypic' height={400} width={400} />
                 {/* <Image src='/logojs.svg' alt='' className='logos js' height={200} width={200} />
                 <Image src='/logo.svg' alt='' className='logos react' height={200} width={200} />

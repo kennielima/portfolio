@@ -141,7 +141,7 @@ function Projects() {
           // type: 'loop',
           perMove: 1,
           width: 'auto',
-          height: '35rem',
+          height: '36rem',
           breakpoints: {
             640: {
               perPage: 1,
