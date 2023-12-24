@@ -269,12 +269,12 @@ text-align: start;
 }
 button{
   color: white;
-  background-color: #ac501fc9;
+  background-color: #D76427;
   cursor: pointer;
   /* padding: 1rem; */
 }
 button:hover {
-  background-color: #D76427;
+  background-color: #c15922;
   
   transition: all 0.3s;
 }

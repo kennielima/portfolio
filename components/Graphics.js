@@ -74,7 +74,6 @@ export default function Graphics() {
                                         {image.span}
                                         <span>{"/>"}</span>
                                     </p>
-                                    {/* <Image src={} alt='' width={300} height={300} /> */}
                                 </Card>
                             </Link>
                             <Stack> {image.stack} </Stack>
