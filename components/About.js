@@ -20,7 +20,7 @@ export default function Projects() {
                 <Grid>
                     <Card>
                         <h3><span>{"<"}</span>Web Development<span>{"/>"}</span></h3>
-                        <p>With Html, CSS, JS and frameworks like ReactJS and NextJS, I create Responsive and Interactive Website Designs</p>
+                        <p>With TypeScript, React/ NextJS, I create Responsive and Interactive Website Designs</p>
                     </Card>
                     <Card>
                         <h3><span>{"<"}</span>UI/UX Design<span>{"/>"}</span></h3>
@@ -33,7 +33,7 @@ export default function Projects() {
                     <Card>
                         <h3><span>{"<"}</span>IT Consulting<span>{"/>"}</span></h3>
                         <p>
-                            3 years experience in IT Career Consulting and ACIPM Certified, I counsel tech students on career paths. I track progress with LMS tools and coordinate projects from start to finish</p>
+                            3 years experience in IT Career Consulting and ACIPM Certified, I counsel tech students on optimal career paths and coordinate multiple running projects</p>
                     </Card>
                     <Card>
                         <h3><span>{"<"}</span>Technical Writing<span>{"/>"}</span></h3>
@@ -41,7 +41,7 @@ export default function Projects() {
                     </Card>
                     <Card>
                         <h3><span>{"<"}</span>Social Media Management<span>{"/>"}</span></h3>
-                        <p>I create amazing content and can manage brands  with strategies designed to increase brand visibility.</p>
+                        <p>I create amazing content and can manage online brands with strategies designed to increase brand visibility.</p>
                     </Card>
                 </Grid>
             </About>

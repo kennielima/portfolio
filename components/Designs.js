@@ -28,7 +28,7 @@ const Images = [
     },
     {
         href: '/facebook',
-        span: 'Facebook Clone design',
+        span: 'Facebook Clone',
         image: '/fb3.svg',
         link: 'https://www.figma.com/community/file/1225360138629097551/decorhome'
     },
