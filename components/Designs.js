@@ -11,20 +11,14 @@ const Images = [
     {
         href: '/travel',
         span: 'Travel Site',
-        image: '/travel.jpg',
+        image: '/trvl2.jpg',
         link: 'https://www.figma.com/community/file/1225359101618116677/travel-landing'
     },
     {
         href: '/news',
         span: 'News Page',
-        image: 'news.jpg',
+        image: 'news2.jpg',
         link: 'https://www.figma.com/community/file/1225359767537955917/daily-news'
-    },
-    {
-        href: '/eatmore',
-        span: 'Food App',
-        image: 'eat44.jpg',
-        link: 'https://www.figma.com/community/file/1225359243560872007/food-app'
     },
     {
         href: '/facebook',
@@ -37,14 +31,25 @@ const Images = [
         span: 'Furniture Landing page',
         image: 'furniture.jpg',
         link: 'https://www.figma.com/community/file/1225359388539450441/furniture-landing-page'
-    }
-    ,
+    },
+    {
+        href: '/smedia',
+        span: 'Social Media',
+        image: '44.jpg',
+        link: 'https://www.figma.com/community/file/1225360138629097551/decorhome'
+    },
+    {
+        href: '/eatmore',
+        span: 'Food App',
+        image: 'eat44.jpg',
+        link: 'https://www.figma.com/community/file/1225359243560872007/food-app'
+    },
     {
         href: '/decorhome',
         span: 'Decor Landing page',
         image: 'decorhome2.jpg',
         link: 'https://www.figma.com/community/file/1225360138629097551/decorhome'
-    }
+    },
 ]
 export default function Designs() {
     const ctx = useContext(textContext);
@@ -97,7 +102,7 @@ export default function Designs() {
 const Card = styled.div`
   width: auto;
   height: 30rem;
-  background-color: #0c1e3249;
+  background-color: #0c1e3269;
   border-radius: 2rem;
   overflow: hidden;
   /* border: 0.3rem solid #D76427; */
@@ -133,7 +138,7 @@ span {
   color: #D76427;
 }
 img {
-  opacity: 20%;
+  opacity: 35%;
   width: 100%;
   height: auto;
 }

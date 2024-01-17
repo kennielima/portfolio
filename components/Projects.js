@@ -10,14 +10,24 @@ import Graphics from './Graphics';
 
 const PROJECTS = [
   {
+    href: "https://kehinde-oyewale-lendsqr-fe-test.vercel.app/",
+    span: 'Lendsqr',
+    image: '/lendsqr.jpg',
+    code: 'https://github.com/kennielima/lendsqr-fe-test',
+    stack1: 'TypeScript',
+    stack2: 'React/Next.js',
+    stack3: 'SCSS',
+    stack4: 'Jest'
+  },
+  {
     href: "https://msboutique.vercel.app",
     span: 'MS Boutique-ongoing',
     image: '/msb.jpg',
     code: 'https://github.com/kennielima/ms-boutique',
     stack1: 'TypeScript',
-    stack2: 'NextJs',
-    stack3: 'TailwindCSS',
-    stack4: 'Firebase',
+    stack2: 'React/Next.js',
+    stack3: 'Firebase',
+    stack4: 'TailwindCSS',
     stack5: 'Swiper'
   },
   {
@@ -69,7 +79,18 @@ const PROJECTS = [
     code: 'https://github.com/kennielima/foodapp.github.io',
     stack1: 'ReactJs',
     stack2: 'Context API',
-    stack3: 'CSS Modules',
+    stack3: 'CSS',
+  },
+  {
+    href: "https://kennielima.vercel.app",
+    span: 'Portfolio Project',
+    image: '/portf.jpg',
+    code: 'https://github.com/kennielima/portfolio',
+    stack1: 'React/NextJs',
+    stack2: 'Formspark',
+    stack3: 'Framer',
+    stack4: 'Context API',
+    stack5: 'Splide',
   },
     {
     href: "https://advtgadgets.vercel.app",
@@ -81,17 +102,6 @@ const PROJECTS = [
     stack3: 'Javascript'
   },
   {
-    href: "https://kennielima.vercel.app",
-    span: 'Portfolio Project',
-    image: '/portf.jpg',
-    code: 'https://github.com/kennielima/portfolio',
-    stack1: 'React/NextJs',
-    stack2: 'Formspark',
-    stack3: 'Framer',
-    stack4: 'Splide',
-    stack5: 'Context API',
-  },
-  {
     href: "https://rockets-one.vercel.app/",
     span: 'Acme Rockets',
     image: '/rocket2.jpg',
@@ -99,22 +109,22 @@ const PROJECTS = [
     stack1: 'HTML',
     stack2: 'TailwindCSS',
   },
-  {
-    href: "https://expenses-vert.vercel.app",
-    span: 'Expenses app',
-    image: '/expense.json',
-    code: 'https://github.com/kennielima/expenses',
-    stack1: 'ReactJs',
-    stack2: 'CSS',
-  },
-  {
-    href: "https://limatictactoe-github-io.vercel.app",
-    span: 'A Game of TIC-TAC-TOE',
-    image: '/tictactoe.json',
-    code: 'https://github.com/kennielima/limatictactoe.github.io',
-    stack1: 'HTML',
-    stack2: 'Javascript'
-  },
+  // {
+  //   href: "https://expenses-vert.vercel.app",
+  //   span: 'Expenses app',
+  //   image: '/expense.json',
+  //   code: 'https://github.com/kennielima/expenses',
+  //   stack1: 'ReactJs',
+  //   stack2: 'CSS',
+  // },
+  // {
+  //   href: "https://limatictactoe-github-io.vercel.app",
+  //   span: 'A Game of TIC-TAC-TOE',
+  //   image: '/tictactoe.json',
+  //   code: 'https://github.com/kennielima/limatictactoe.github.io',
+  //   stack1: 'HTML',
+  //   stack2: 'Javascript'
+  // },
   // {
   //   href: "https://omnifood.kennielima.vercel.app",
   //   span: 'Omnifood',
@@ -196,7 +206,7 @@ background-color: #333333;
 const Card = styled.div`
   width: auto;
   height: 30rem;
-  background-color: #0c1e3259;
+  background-color: #0c1e3269;
   border-radius: 2rem;
   overflow: hidden;
   /* border: 0.3rem solid #D76427; */
@@ -231,7 +241,7 @@ span {
   color: #D76427;
 }
 img {
-  opacity: 20%;
+  opacity: 35%;
   width: 100%;
 }
 `;

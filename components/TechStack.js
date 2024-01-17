@@ -24,9 +24,9 @@ export default function TechStack() {
           <div><Image src='/tailwind.png' alt='' height={200} width={200} />TailwindCSS</div>
           <div><Image src='/fb.png' alt='' height={200} width={200} /> Firebase </div>
           <div><Image src='/github.png' alt='' height={200} width={200} /> Git Version Control</div>
+          <div><Image src='/jest.png' alt='' height={200} width={200} /> Jest</div>
           <div><Image src='/jiraa.png' alt='' height={200} width={200} /> Jira </div>
           <div><Image src='/pman.png' alt='' height={200} width={200} /> Postman </div>
-          <div><Image src='/redux2.jpg' alt='' height={200} width={200} /> Redux</div>
           <div><Image src='/figma.png' alt='' height={200} width={200} />Figma</div>
           <div><Image src='/photoshop.png' alt='' height={200} width={200} /> Photoshop </div>
           <div><Image src='/indesign.png' alt='' height={200} width={200} /> InDesign </div>

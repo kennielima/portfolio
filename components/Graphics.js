@@ -11,7 +11,7 @@ const Images = [
     {
         href: '/color',
         span: 'Landing Page',
-        image: '/color22.jpg',
+        image: '/art.jpg',
         stack: 'Photoshop'
     },
     {
@@ -99,7 +99,7 @@ width: 8rem;
 const Card = styled.div`
   width: auto;
   height: 30rem;
-  background-color: #0c1e3249;
+  background-color: #0c1e3269;
   border-radius: 2rem;
   overflow: hidden;
   /* border: 0.3rem solid #D76427; */
@@ -131,7 +131,7 @@ span {
   color: #D76427;
 }
 img {
-  opacity: 25%;
+  opacity: 40%;
   width: 100%;
   height: 100%;
 }
