@@ -39,7 +39,7 @@ function Hero() {
                         </button>
                     </Link>
                 </div>
-                <Image src='/unnamed2.jpg' alt='' id='mypic' height={400} width={400} />
+                <Image src='/unnamed.jpg' alt='' id='mypic' height={400} width={400} />
                 {/* <Image src='/logojs.svg' alt='' className='logos js' height={200} width={200} />
                 <Image src='/logo.svg' alt='' className='logos react' height={200} width={200} />
                 <Image src='/figma.png' alt='' className='logos figma' height={200} width={200} /> */}
