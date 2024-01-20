@@ -92,7 +92,7 @@ const PROJECTS = [
     stack4: 'Context API',
     stack5: 'Splide',
   },
-    {
+  {
     href: "https://advtgadgets.vercel.app",
     span: 'Advt',
     image: '/advt2.jpg',
@@ -180,9 +180,14 @@ function Projects() {
                   {project.stack4 && <Stack> {project.stack4} </Stack>}
                   {project.stack5 && <Stack> {project.stack5} </Stack>}
                 </div>
-                <a href={project.code} target="_blank">
-                  <button id='code'> Source Code</button>
-                </a>
+                <div>
+                  <a href={project.href} target="_blank">
+                    <button id='code'> View Site </button>
+                  </a>
+                  <a href={project.code} target="_blank">
+                    <button id='code'> View Source Code</button>
+                  </a>
+                </div>
               </SplideSlide>
             )
           })}
@@ -272,11 +277,12 @@ padding-bottom: 2rem;
 text-align: start;
 }
 #code {
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1rem;
   border-radius: 0.5rem;
   border: none;
   position: relative;
   top: -1.6rem; 
+  margin-left: 1rem;
 }
 button{
   color: white;

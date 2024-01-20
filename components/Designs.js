@@ -88,9 +88,14 @@ export default function Designs() {
                                     </p>
                                 </Card>
                             </Link>
-                            <a href={image.link} target="_blank">
-                                <button style={{padding:"0.5rem 1rem", border:'none',borderRadius:"0.5rem"}}> Figma Link </button>
-                            </a>
+                            <div>
+                                <a href={image.href} target="_blank">
+                                    <button style={{ padding: "0.7rem 1rem", border: 'none', borderRadius: "0.5rem", marginRight: "1rem" }}> View Design </button>
+                                </a>
+                                <a href={image.link} target="_blank">
+                                    <button style={{ padding: "0.7rem 1rem", border: 'none', borderRadius: "0.5rem" }}> Figma Link </button>
+                                </a>
+                            </div>
                         </SplideSlide>
                     )
                 })}

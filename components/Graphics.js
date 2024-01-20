@@ -54,7 +54,7 @@ export default function Graphics() {
                 // type: 'loop',
                 perMove: 1,
                 width: 'auto',
-                height: '33rem',
+                height: '36rem',
                 breakpoints: {
                     640: {
                         perPage: 1,
@@ -77,6 +77,9 @@ export default function Graphics() {
                                 </Card>
                             </Link>
                             <Stack> {image.stack} </Stack>
+                            <a href={image.href} target="_blank">
+                                <button style={{ padding: "0.7rem 1rem", position: 'relative', top: '-1.7rem', border: 'none', borderRadius: "0.5rem" }}> View Design </button>
+                            </a>
                         </SplideSlide>
                     )
                 })}
