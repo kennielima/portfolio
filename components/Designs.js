@@ -11,7 +11,7 @@ const Images = [
     {
         href: '/travel',
         span: 'Travel Site',
-        image: '/trvl2.jpg',
+        image: '/trvl22.jpg',
         link: 'https://www.figma.com/community/file/1225359101618116677/travel-landing'
     },
     {
