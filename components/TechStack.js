@@ -34,9 +34,9 @@ export default function TechStack() {
         </Grid>
         <h2 style={{ color: '#62dbfc', fontSize: '2rem' }}>Currently Learning<span>()</span></h2>
         <Grid>
-          <div><Image src='/node.png' alt='' height={200} width={200} />NodeJs <br />(in view)</div>
-          <div><Image src='/xpress.png' alt='' height={200} width={200} /> Express <br />(in view)</div>
-          <div><Image src='/mongo.png' alt='' height={200} width={200} /> MongoDb <br />(in view)</div>
+          <div><Image src='/node.png' alt='' height={200} width={200} />NodeJs </div>
+          <div><Image src='/xpress.png' alt='' height={200} width={200} /> Express </div>
+          <div><Image src='/mongo.png' alt='' height={200} width={200} /> MongoDb </div>
         </Grid>
       </Stacks>
       <hr style={{ border: '2px solid #D76427' }}></hr>
