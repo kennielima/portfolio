@@ -1,9 +1,9 @@
 export default function Head() {
   return (
     <>
-      <title>Kennielima</title>
+      <title>Kennielima's portfolio</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Kennielima's portfolio: Made with Love" />
+      <meta name="description" content="Kennielima: Made with Love" />
       <meta name="google-site-verification" content="vqXqnXG1N9XjomRA6fZ0d_Rlj0PqDgu1_BCze9JyJpo" />
       {/* <meta name="robots" content="all" /> */}
       <link
