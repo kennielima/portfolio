@@ -109,15 +109,15 @@ p {
 }
 `;
 const About = styled.div`
-background-image: url('/herodark1.jpg');
+/* background-image: url('/herodark1.jpg');
 background-repeat: repeat;
 background-size: cover;
-background-attachment: fixed;
+background-attachment: fixed; */
 padding: 5% 10%;
 @media(max-width:480px){
-    background-image: url('/herodark.png');
-    /* background-size: auto; */
-    background-attachment: scroll;
+    /* background-image: url('/herodark.png');
+    background-size: auto;
+    background-attachment: scroll; */
   }
 h1 {
 font-size: 5rem;

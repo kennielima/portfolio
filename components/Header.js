@@ -49,11 +49,11 @@ export default function Header() {
 const Head = styled.header`
   position: sticky;
   width: auto;
-  height: 5.5rem;
+  height: 8rem;
   margin: -2.5rem auto;
   top: 0rem;
   z-index: 20;
-  background-color: #0c1c2f;
+  background-color: rgb(10, 10, 10); /* #0c1c2f */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +95,7 @@ const Main = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   gap: 8rem;
   color: #e6e6e6;
   @media(min-width:480px) and (max-width:650px){

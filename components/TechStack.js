@@ -15,28 +15,22 @@ export default function TechStack() {
       <Stacks ref={ref}>
         <h1>TechStack<span style={{ color: '#ffffff' }}>()</span></h1>
         <Grid>
-          <div><Image src='/html.svg' alt='' height={400} width={400} />HTML</div>
-          <div><Image src='/css.png' alt='' height={200} width={200} />CSS</div>
-          <div><Image src='/js.png' alt='' height={200} width={200} />Javascript</div>
           <div><Image src='/ts.png' alt='' height={200} width={200} /> Typescript </div>
+          <div><Image src='/js.png' alt='' height={200} width={200} />Javascript</div>
           <div><Image src='/logo.svg' alt='' height={200} width={200} />ReactJs</div>
           <div><Image src='/next.png' alt='' height={200} width={200} />NextJs</div>
           <div><Image src='/tailwind.png' alt='' height={200} width={200} />TailwindCSS</div>
-          <div><Image src='/fb.png' alt='' height={200} width={200} /> Firebase </div>
-          <div><Image src='/github.png' alt='' height={200} width={200} /> Git Version Control</div>
-          <div><Image src='/jest.png' alt='' height={200} width={200} /> Jest</div>
-          <div><Image src='/jiraa.png' alt='' height={200} width={200} /> Jira </div>
-          <div><Image src='/pman.png' alt='' height={200} width={200} /> Postman </div>
-          <div><Image src='/figma.png' alt='' height={200} width={200} />Figma</div>
-          <div><Image src='/photoshop.png' alt='' height={200} width={200} /> Photoshop </div>
-          <div><Image src='/indesign.png' alt='' height={200} width={200} /> InDesign </div>
-
-        </Grid>
-        <h2 style={{ color: '#62dbfc', fontSize: '2rem' }}>Currently Learning<span>()</span></h2>
-        <Grid>
+          <div><Image src='/shadcn.png' alt='' height={200} width={200} /> Shadcn </div>
+          <div><Image src='/antd.jpeg' alt='' height={200} width={200} /> AntDesign </div>
           <div><Image src='/node.png' alt='' height={200} width={200} />NodeJs </div>
           <div><Image src='/xpress.png' alt='' height={200} width={200} /> Express </div>
+          <div><Image src='/prisma.png' alt='' height={200} width={200} /> Prisma </div>
           <div><Image src='/mongo.png' alt='' height={200} width={200} /> MongoDb </div>
+          <div><Image src='/mysql.png' alt='' height={200} width={200} /> MySql </div>
+          <div><Image src='/fb.png' alt='' height={200} width={200} /> Firebase </div>
+          <div><Image src='/github.png' alt='' height={200} width={200} /> Git Version Control</div>
+          <div><Image src='/figma.png' alt='' height={200} width={200} />Figma</div>
+
         </Grid>
       </Stacks>
       <hr style={{ border: '2px solid #D76427' }}></hr>
@@ -70,14 +64,14 @@ div {
 
 const Stacks = styled.div`
   padding: 5% 10%;
-  background-image: url('/herodark1.jpg');
+  /* background-image: url('/herodark1.jpg');
   background-repeat: repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
    @media(max-width:480px){
-    background-image: url('/herodark.png');
+    /* background-image: url('/herodark.png');
     background-size: auto;
-    background-attachment: scroll;
+    background-attachment: scroll; */
     /* background-position: top left; */
   }
 h1 {

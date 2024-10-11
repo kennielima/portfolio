@@ -15,7 +15,7 @@ function Hero() {
         <Fragment>
             <Heros ref={ref}>
                 <div id='intro'>
-                    <span className='hello'>Hello,  I am</span>
+                    <span className='hello'>Hi, I am</span>
                     <span
                         className='names'
                         style={{ paddingLeft: '4rem' }}>
@@ -49,10 +49,10 @@ function Hero() {
     )
 }
 const Heros = styled.div`
-    background-image: url('/herodark1.jpg');
+    /* background-image: url('/herodark1.jpg');
     background-repeat: repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -79,15 +79,17 @@ const Heros = styled.div`
 
 #mypic {
     border-radius: 50%;
-    border: 3rem solid rgba(215, 100, 39, 0.91);
-    box-shadow: 1px 1px 100px 10px rgba(215, 100, 39, 0.9);
+    /* border: 3rem solid rgba(215, 100, 39, 0.91);
+    box-shadow: 1px 1px 100px 10px rgba(215, 100, 39, 0.9); */
+    padding: 0.1rem;
+    border: 3rem solid rgba(215, 100, 39, 0.5);
     height: 65%;
     width: 35%;
     position:relative;
 }
 #mypic:hover {
-    padding: 0.1rem;
-    border: 3rem solid rgba(215, 100, 39, 0.5);
+    /* padding: 0.1rem;
+    border: 3rem solid rgba(215, 100, 39, 0.5); */
     /* transition: all 0.3s; */
 }
 .logos{
@@ -186,8 +188,8 @@ a {
     justify-content: center;
     gap: 6rem;
     align-items: center;
-    background-image: url('/herodark22.jpg');
-    background-size: auto;
+    /* background-image: url('/herodark22.jpg');
+    background-size: auto; */
 
 .hello {
     text-align: center;
