@@ -11,17 +11,6 @@ import Link from 'next/link';
 
 const PROJECTS = [
   {
-    href: "https://yarami.co",
-    span: 'Yarami (Live)',
-    image: '/yarami.png',
-    code: 'https://github.com/kennielima/deliciouss.github.io',
-    stack1: 'TypeScript',
-    stack2: 'NextJs',
-    stack3: 'Tailwind',
-    stack4: 'Prisma',
-    stack5: 'AntD',
-  },
-  {
     href: "https://kehinde-oyewale-lendsqr-fe-test.vercel.app/",
     span: 'Lendsqr',
     image: '/lendsqr.jpg',
@@ -93,28 +82,7 @@ function Projects() {
   return (
     <Fragment>
       <Bodyy ref={ref}>
-        <h1>My Projects<span style={{ color: '#ffffff' }}>()</span></h1>
-
-        {/* <div className='w-1/2'>
-          <Link href={'https://yarami.co'} target="_blank">
-            <Card>
-              <Image src={'/yarami.png'} alt='' layout='fill' />
-              <p>{"<"}Yarami{"/>"}</p>
-            </Card>
-          </Link>
-          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', position: 'relative', bottom: '2.7rem' }}>
-            <Stack> {'TypeScript'} </Stack>
-            <Stack> {'NextJs'} </Stack>
-            <Stack> {'Prisma'} </Stack>
-            <Stack> {'Tailwind'} </Stack>
-            <Stack> {'AntD'} </Stack>
-          </div>
-          <div>
-            <Link href={'https://yarami.co'} target="_blank">
-              <button id='code'> View Site </button>
-            </Link>
-          </div>
-        </div> */}
+        <h1>Personal Projects<span style={{ color: '#ffffff' }}>()</span></h1>
         <h2>Web Development<span style={{ color: '#ffffff' }}>()</span></h2>
         <Splide options={{
           perPage: 2,
