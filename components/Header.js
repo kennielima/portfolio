@@ -58,7 +58,7 @@ const Head = styled.header`
   align-items: center;
   justify-content: center;
   @media(max-width:480px){
-  background-color: #0c1e32;
+  background-color:  rgb(10, 10, 10);;
 }
 #home {
 position: absolute;
