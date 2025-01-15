@@ -53,7 +53,7 @@ const Head = styled.header`
   margin: -2.5rem auto;
   top: 0rem;
   z-index: 20;
-  background-color: rgb(10, 10, 10); /* #0c1c2f */
+  background-color: #0c1c2f; /* rgb(10, 10, 10); */
   display: flex;
   align-items: center;
   justify-content: center;

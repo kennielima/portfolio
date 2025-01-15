@@ -20,18 +20,18 @@ function Hero() {
                         className='names'
                         style={{ paddingLeft: '4rem' }}>
                         <span
-                            style={{ fontSize: '6rem', color: '#d76527' }}>{"<"}</span>
+                            style={{ fontSize: '6rem', color: '#D76527' }}>{"<"}</span>
                         Kehinde
                     </span>
                     <span
                         className='names'
                         id='surname'
                         style={{ paddingLeft: '11rem' }}>Oyewale
-                        <span style={{ fontSize: '5rem', color: '#d76527' }}>{"/>"}</span>
+                        <span style={{ fontSize: '5rem', color: '#D76527' }}>{"/>"}</span>
                     </span>
                     <span
                         className='hello'
-                        style={{ paddingLeft: '3.2rem' }}>Front-End Developer
+                        style={{ paddingLeft: '3.2rem' }}>Fullstack Developer
                     </span>
                     <Link href='/OYEWALE-KEHINDE.pdf' target='_blank'>
                         <button style={{ display: 'flex', alignItems: 'center' }}>Resume
@@ -49,10 +49,10 @@ function Hero() {
     )
 }
 const Heros = styled.div`
-    /* background-image: url('/herodark1.jpg');
+    background-image: url('/herodark1.jpg');
     background-repeat: repeat;
     background-size: cover;
-    background-attachment: fixed; */
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -79,17 +79,16 @@ const Heros = styled.div`
 
 #mypic {
     border-radius: 50%;
-    /* border: 3rem solid rgba(215, 100, 39, 0.91);
-    box-shadow: 1px 1px 100px 10px rgba(215, 100, 39, 0.9); */
+    border: 3rem solid rgba(215, 100, 39, 0.91);
+    box-shadow: 1px 1px 100px 10px rgba(215, 100, 39, 0.9);
     padding: 0.1rem;
-    border: 3rem solid rgba(215, 100, 39, 0.5);
     height: 65%;
     width: 35%;
     position:relative;
 }
 #mypic:hover {
-    /* padding: 0.1rem;
-    border: 3rem solid rgba(215, 100, 39, 0.5); */
+    padding: 0.1rem;
+    border: 3rem solid rgba(215, 100, 39, 0.5);
     /* transition: all 0.3s; */
 }
 .logos{
@@ -188,8 +187,8 @@ a {
     justify-content: center;
     gap: 6rem;
     align-items: center;
-    /* background-image: url('/herodark22.jpg');
-    background-size: auto; */
+    background-image: url('/herodark22.jpg');
+    background-size: auto;
 
 .hello {
     text-align: center;
@@ -244,8 +243,8 @@ export default Hero;
 //     width: auto;
 //     height: 50%;
 //     border-radius: 50%;
-//     border: 3rem solid rgba(215, 100, 39, 0.91);
-//     box-shadow: 1px 1px 100px 10px rgba(215, 100, 39, 0.9);
+//     border: 3rem solid grey;
+//     box-shadow: 1px 1px 100px 10px grey;
 // }
 // #mypic {
 //     height: 100%;
@@ -254,7 +253,7 @@ export default Hero;
 // }
 // .images:hover {
 //     padding: 0.1rem;
-//     border: 3rem solid rgba(215, 100, 39, 0.5);
+//     border: 3rem solid grey;
 //     transition: all 0.3s;
 // }
 // .images {
@@ -265,5 +264,5 @@ export default Hero;
 //     margin: 0 8rem;
 //     width: auto; 
 //     height: 35%;
-//     border: 2rem solid rgba(215, 100, 39, 0.91);
+//     border: 2rem solid grey;
 // }

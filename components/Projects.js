@@ -193,14 +193,14 @@ img {
 `;
 const Bodyy = styled.div`
   padding: 5% 10% 10% 10%;
-  /* background-image: url('/herodark1.jpg');
+  background-image: url('/herodark1.jpg');
   background-repeat: repeat;
   background-size: cover;
-  background-attachment: fixed; */
+  background-attachment: fixed;
   @media(max-width:480px){
-    /* background-image: url('/herodark.png');
+    background-image: url('/herodark.png');
     background-size: auto;
-    background-attachment: scroll; */
+    background-attachment: scroll;
   }
 h1 {
 font-size: 5rem;
